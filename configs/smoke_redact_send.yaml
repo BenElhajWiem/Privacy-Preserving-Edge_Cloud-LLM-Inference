@@ -1,0 +1,26 @@
+name: smoke_redact_send
+system: redact_send
+system_args: {}
+
+data:
+  dataset: pupa
+  split: tnb
+  limit: 3
+
+edge:
+  backend: ollama
+  model: qwen3:1.7b
+  think: false
+
+cloud:
+  backend: anthropic
+  model: claude-haiku-5-5
+  effort: low
+
+labeler: [detector, edge]
+
+gen:
+  edge_max_tokens: 512
+  cloud_max_tokens: 1024
+
+judge: null

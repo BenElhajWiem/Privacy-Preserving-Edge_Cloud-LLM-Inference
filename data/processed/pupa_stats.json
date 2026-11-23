@@ -1,0 +1,79 @@
+{
+ "pupa_tnb": {
+  "examples": 237,
+  "failed_requests": 1,
+  "spans": 967,
+  "by_label": {
+   "local-only": 250,
+   "abstractable": 425,
+   "public": 292
+  },
+  "by_category": {
+   "ORGANIZATION": 325,
+   "PERSON": 223,
+   "LOCATION": 103,
+   "OTHER": 95,
+   "DATE_TIME": 82,
+   "OCCUPATION": 38,
+   "URL": 21,
+   "ID_NUMBER": 17,
+   "MEDICAL_CONDITION": 15,
+   "MONEY": 13,
+   "NRP": 10,
+   "ADDRESS": 8,
+   "PHONE_NUMBER": 7,
+   "EMAIL_ADDRESS": 7,
+   "AGE": 3
+  },
+  "by_label_and_source": {
+   "abstractable / pupa-unit": 221,
+   "abstractable / relabel-added": 204,
+   "local-only / pupa-unit": 179,
+   "local-only / pupa-unit-unlabeled": 2,
+   "local-only / relabel-added": 69,
+   "public / pupa-unit": 261,
+   "public / relabel-added": 31
+  },
+  "unaligned": 37,
+  "unlabeled_units": 2
+ },
+ "pupa_new": {
+  "examples": 664,
+  "failed_requests": 6,
+  "spans": 2414,
+  "by_label": {
+   "local-only": 765,
+   "abstractable": 842,
+   "public": 807
+  },
+  "by_category": {
+   "PERSON": 656,
+   "ORGANIZATION": 594,
+   "OTHER": 302,
+   "LOCATION": 298,
+   "DATE_TIME": 151,
+   "URL": 83,
+   "ACCOUNT_NUMBER": 71,
+   "OCCUPATION": 56,
+   "MONEY": 48,
+   "ID_NUMBER": 35,
+   "ADDRESS": 31,
+   "MEDICAL_CONDITION": 27,
+   "NRP": 25,
+   "EMAIL_ADDRESS": 16,
+   "AGE": 11,
+   "PHONE_NUMBER": 10
+  },
+  "by_label_and_source": {
+   "abstractable / pupa-unit": 385,
+   "abstractable / relabel-added": 457,
+   "local-only / pupa-unit": 579,
+   "local-only / pupa-unit-unlabeled": 32,
+   "local-only / relabel-added": 154,
+   "public / pupa-unit": 767,
+   "public / relabel-added": 40
+  },
+  "unaligned": 49,
+  "unlabeled_units": 32
+ }
+}

@@ -1,0 +1,19 @@
+{
+ "data": "pupa_tnb",
+ "split": null,
+ "seed": 0,
+ "edge": "gemma3:4b-it-q4_K_M",
+ "cloud": "claude-sonnet-5-5",
+ "rows": [
+  {
+   "system": "gap_aware",
+   "edge": "gemma3:4b-it-q4_K_M",
+   "gate": "open",
+   "phrases": true,
+   "at_least_as_good": null,
+   "exact_match": null,
+   "hard_violation": 0.04195804195804196,
+   "cloud_calls": 1.7202797202797202
+  }
+ ]
+}

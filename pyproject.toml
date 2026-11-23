@@ -1,0 +1,42 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "gapdeleg"
+version = "0.1.0"
+description = "Privacy-first, gap-aware delegation between a small edge LLM and a cloud LLM"
+requires-python = ">=3.12"
+dependencies = [
+  "anthropic>=0.40",
+  "openai>=1.40",
+  "presidio-analyzer>=2.2",
+  "presidio-anonymizer>=2.2",
+  "spacy>=3.7,<3.9",
+  "rapidfuzz>=3.0",
+  "wordfreq>=3.1",
+  "pandas>=2.0",
+  "openpyxl>=3.1",
+  "pyyaml",
+  "psutil",
+  "huggingface_hub>=0.25",
+]
+
+[project.optional-dependencies]
+mac = ["mlx>=0.20", "mlx-lm>=0.20"]
+llamacpp = ["llama-cpp-python>=0.3"]
+dev = ["pytest"]
+baselines = ["dspy>=2.6", "torch", "llama-cpp-python>=0.3"]
+
+[tool.setuptools.packages.find]
+include = ["gapdeleg*"]
+
+[tool.setuptools.package-data]
+gapdeleg = ["privacy/policy.yaml"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+markers = [
+  "integration: needs local models (Ollama/MLX) or API keys; run with -m integration",
+]
+addopts = "-m 'not integration' -p no:cacheprovider"

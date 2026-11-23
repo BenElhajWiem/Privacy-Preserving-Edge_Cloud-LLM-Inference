@@ -1,0 +1,82 @@
+{
+ "gemma3:4b-it-q4_K_M": {
+  "automix": {
+   "best_quality": 1.01,
+   "zero_violation": 0.0
+  },
+  "cascade": {
+   "best_quality": 0.9250583834571247,
+   "zero_violation": 0.7566393999876936
+  }
+ },
+ "llama3.1:8b-instruct-q4_K_M": {
+  "automix": {
+   "best_quality": 1.01,
+   "zero_violation": 0.0
+  },
+  "cascade": {
+   "best_quality": 0.9418979037104865,
+   "zero_violation": 0.0
+  }
+ },
+ "llama3.2:3b": {
+  "automix": {
+   "best_quality": 1.01,
+   "zero_violation": 0.0
+  },
+  "cascade": {
+   "best_quality": 0.8556102424921082,
+   "zero_violation": 0.7393331433572796
+  }
+ },
+ "ministral-3:8b-fixeddate": {
+  "automix": {
+   "best_quality": 1.01,
+   "zero_violation": 0.125
+  },
+  "cascade": {
+   "best_quality": 0.7748954820473444,
+   "zero_violation": 0.0
+  }
+ },
+ "qwen3:1.7b": {
+  "automix": {
+   "best_quality": 0.625,
+   "zero_violation": 0.625
+  },
+  "cascade": {
+   "best_quality": 0.8119677311734372,
+   "zero_violation": 0.0
+  }
+ },
+ "qwen3:4b-instruct-2507-q4_K_M": {
+  "automix": {
+   "best_quality": 1.01,
+   "zero_violation": 0.0
+  },
+  "cascade": {
+   "best_quality": 0.8501010282433217,
+   "zero_violation": 0.7004415940917115
+  }
+ },
+ "qwen3:4b-q4_K_M": {
+  "automix": {
+   "best_quality": 1.01,
+   "zero_violation": 0.0
+  },
+  "cascade": {
+   "best_quality": 0.9128681648434752,
+   "zero_violation": 0.0
+  }
+ },
+ "qwen3:8b-q4_K_M": {
+  "automix": {
+   "best_quality": 1.01,
+   "zero_violation": 0.375
+  },
+  "cascade": {
+   "best_quality": 0.9276394187776704,
+   "zero_violation": 0.0
+  }
+ }
+}

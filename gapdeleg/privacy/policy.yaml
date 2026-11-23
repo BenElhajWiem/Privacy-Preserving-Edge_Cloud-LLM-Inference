@@ -1,0 +1,31 @@
+labels: [public, abstractable, local-only]
+default_label: local-only
+
+categories:
+  PERSON: local-only
+  EMAIL_ADDRESS: local-only
+  PHONE_NUMBER: local-only
+  ACCOUNT_NUMBER: local-only
+  CREDIT_CARD: local-only
+  IBAN_CODE: local-only
+  US_SSN: local-only
+  ID_NUMBER: local-only
+  ADDRESS: local-only
+  IP_ADDRESS: local-only
+  URL: abstractable
+  ORGANIZATION: abstractable
+  LOCATION: abstractable
+  DATE_TIME: abstractable
+  AGE: abstractable
+  MONEY: abstractable
+  MEDICAL_CONDITION: local-only
+  NRP: abstractable
+  OCCUPATION: public
+  GENERIC: public
+
+guard:
+  fuzzy_threshold: 90
+  min_fuzzy_len: 4
+  detector_block_types: [EMAIL_ADDRESS, PHONE_NUMBER, CREDIT_CARD, IBAN_CODE, US_SSN, ACCOUNT_NUMBER,
+                         IP_ADDRESS, PERSON]
+  detector_min_score: 0.6

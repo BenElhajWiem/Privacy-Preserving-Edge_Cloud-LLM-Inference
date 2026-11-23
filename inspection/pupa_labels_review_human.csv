@@ -1,0 +1,185 @@
+﻿row,item,example_id,span,category,origin,final_label,provenance,sonnet_label,gpt_label,human_label,span_wrong,comment,saw_sonnet_label
+0,1,pupa-new-15,McDONALDS,ORGANIZATION,marked by PUPA,public,agreed,public,public,public,,,yes
+1,1,pupa-new-15,WENDY’S,ORGANIZATION,marked by PUPA,public,agreed,public,public,public,,,yes
+2,1,pupa-new-15,TACO BELL,ORGANIZATION,marked by PUPA,public,agreed,public,public,public,,,yes
+3,1,pupa-new-15,Burger King,ORGANIZATION,marked by PUPA,public,agreed,public,public,public,,,yes
+4,1,pupa-new-15,SUBWAY,ORGANIZATION,marked by PUPA,public,agreed,public,public,public,,,yes
+5,1,pupa-new-15,K.F.C.,ORGANIZATION,marked by PUPA,public,agreed,public,public,public,,,yes
+6,2,pupa-new-18,AUSTRIA,LOCATION,marked by PUPA,public,agreed,public,public,public,,,yes
+7,2,pupa-new-18,1500 EURO,MONEY,added by Claude,public,adjudicated,abstractable,public,abstractable,,,yes
+8,3,pupa-new-24,Year’s,DATE_TIME,marked by PUPA,public,agreed,public,public,public,,,yes
+9,3,pupa-new-24,Suffolk,LOCATION,marked by PUPA,abstractable,agreed,abstractable,abstractable,abstractable,,,yes
+10,3,pupa-new-24,Long Island New York,LOCATION,added by Claude,abstractable,agreed,abstractable,abstractable,abstractable,,,yes
+11,4,pupa-new-49,Oman,LOCATION,marked by PUPA,public,agreed,public,public,public,,,yes
+12,4,pupa-new-49,Omani,NRP,marked by PUPA,public,agreed,public,public,public,,,yes
+13,5,pupa-new-130,US Air Force,ORGANIZATION,marked by PUPA,public,agreed,public,public,public,,,yes
+14,5,pupa-new-130,Nasiriyya,LOCATION,marked by PUPA,public,agreed,public,public,public,,,yes
+15,5,pupa-new-130,Iraq,LOCATION,marked by PUPA,public,agreed,public,public,public,,,yes
+16,5,pupa-new-130,USA,LOCATION,marked by PUPA,public,agreed,public,public,public,,,yes
+17,5,pupa-new-130,NATO,ORGANIZATION,marked by PUPA,public,agreed,public,public,public,,,yes
+18,5,pupa-new-130,NATO military intervention in former Yugoslavia,OTHER,marked by PUPA,public,agreed,public,public,public,,,yes
+19,5,pupa-new-130,Yugoslavia,LOCATION,marked by PUPA,public,agreed,public,public,public,,,yes
+20,5,pupa-new-130,the Serbs,NRP,marked by PUPA,public,agreed,public,public,public,,,yes
+21,5,pupa-new-130,US Army,ORGANIZATION,marked by PUPA,public,agreed,public,public,public,,,yes
+22,5,pupa-new-130,Operation Desert Storm,OTHER,marked by PUPA,public,agreed,public,public,public,,,yes
+23,6,pupa-new-143,Ms. yoyo,PERSON,marked by PUPA,local-only,agreed,local-only,local-only,local-only,,,yes
+24,6,pupa-new-143,dubai,LOCATION,marked by PUPA,abstractable,adjudicated,public,abstractable,abstractable,,,yes
+25,6,pupa-new-143,"Nokhitha Building Danat Al Khaleej GEN TR EST No 502, 5th Floor, AL NOKHITHA Building, Deira, Dubai, UAE Po-Box: 5450",ADDRESS,marked by PUPA,local-only,agreed,local-only,local-only,local-only,,,yes
+26,7,pupa-new-152,"Open AI, ChatGPT, or any party affiliated with them",ORGANIZATION,marked by PUPA,public,agreed,public,public,public,,,yes
+27,8,pupa-new-161,Chandler,PERSON,marked by PUPA,local-only,agreed,local-only,local-only,local-only,,,yes
+28,9,pupa-new-180,Amanda,PERSON,marked by PUPA,local-only,agreed,local-only,local-only,local-only,,,yes
+29,9,pupa-new-180,our MOH,ORGANIZATION,added by Claude,abstractable,agreed,abstractable,abstractable,abstractable,,,yes
+30,9,pupa-new-180,more than 200 devices per 1.5 year,OTHER,added by Claude,abstractable,agreed,abstractable,abstractable,abstractable,,,yes
+31,9,pupa-new-180,VIMS,ORGANIZATION,marked by PUPA,abstractable,agreed,abstractable,abstractable,abstractable,,,yes
+32,9,pupa-new-180,Hermann,ORGANIZATION,marked by PUPA,abstractable,agreed,abstractable,abstractable,abstractable,,,yes
+33,10,pupa-new-218,land loan,OTHER,added by Claude,abstractable,agreed,abstractable,abstractable,abstractable,,,yes
+34,10,pupa-new-218,Jason,PERSON,marked by PUPA,local-only,agreed,local-only,local-only,local-only,,,yes
+35,10,pupa-new-218,travel with the military,OCCUPATION,added by Claude,abstractable,agreed,abstractable,abstractable,abstractable,,,yes
+36,10,pupa-new-218,mine and my wife's last two W-2s,OTHER,added by Claude,local-only,agreed,local-only,local-only,local-only,,,yes
+37,10,pupa-new-218,my wife,PERSON,added by Claude,public,adjudicated,abstractable,local-only,abstractable,,,yes
+38,10,pupa-new-218,financial statement form,OTHER,added by Claude,public,adjudicated,abstractable,local-only,abstractable,,,yes
+39,11,pupa-new-239,vag,ORGANIZATION,marked by PUPA,public,agreed,public,public,public,,,yes
+40,12,pupa-new-243,land loan,OTHER,added by Claude,abstractable,agreed,abstractable,abstractable,abstractable,,,yes
+41,12,pupa-new-243,Jason,PERSON,marked by PUPA,local-only,agreed,local-only,local-only,local-only,,,yes
+42,12,pupa-new-243,travel with the military,OCCUPATION,added by Claude,abstractable,agreed,abstractable,abstractable,abstractable,,,yes
+43,12,pupa-new-243,mine and my wife's last two W-2s and,OTHER,added by Claude,local-only,agreed,local-only,local-only,local-only,,,yes
+44,12,pupa-new-243,financial statement form,OTHER,added by Claude,public,adjudicated,abstractable,local-only,abstractable,,,yes
+45,13,pupa-new-305,Dell EMC,ORGANIZATION,marked by PUPA,public,agreed,public,public,public,,,yes
+46,13,pupa-new-305,PRESIDIO_ANONYMIZED_PHONE_NUMBER,PHONE_NUMBER,marked by PUPA,local-only,agreed,local-only,local-only,local-only,,,yes
+47,14,pupa-new-319,security team,ORGANIZATION,added by Claude,public,agreed,public,public,public,,,yes
+48,14,pupa-new-319,Balaji,PERSON,marked by PUPA,local-only,agreed,local-only,local-only,local-only,,,yes
+49,14,pupa-new-319,effem,ORGANIZATION,added by Claude,abstractable,adjudicated,abstractable,public,abstractable,,,yes
+50,14,pupa-new-319,intune,OTHER,added by Claude,public,agreed,public,public,public,,,yes
+51,14,pupa-new-319,Airwatch,OTHER,added by Claude,public,agreed,public,public,public,,,yes
+52,15,pupa-new-350,cteklo,OTHER,marked by PUPA,local-only,strict-default,local-only,local-only,local-only,,,yes
+53,16,pupa-new-395,Nazish Imran,PERSON,marked by PUPA,public,agreed,public,public,public,,,yes
+54,16,pupa-new-395,Aateqa Hashmi,PERSON,marked by PUPA,public,agreed,public,public,public,,,yes
+55,16,pupa-new-395,Ahad Imran,PERSON,marked by PUPA,public,agreed,public,public,public,,,yes
+56,16,pupa-new-395,Fredrick Godin,PERSON,marked by PUPA,public,agreed,public,public,public,,,yes
+57,16,pupa-new-395,Ben Buchanan,PERSON,marked by PUPA,public,agreed,public,public,public,,,yes
+58,16,pupa-new-395,Andrew Imbrue,PERSON,marked by PUPA,public,agreed,public,public,public,,,yes
+59,17,pupa-new-400,Imam Khomeini hospital,ORGANIZATION,marked by PUPA,public,agreed,public,public,public,,,yes
+60,17,pupa-new-400,Imam Khomeini hospital and Red Crescent Center of Tehran,ORGANIZATION,marked by PUPA,public,agreed,public,public,public,,,yes
+61,17,pupa-new-400,University of social welfare and Rehabilitation Science,ORGANIZATION,marked by PUPA,public,agreed,public,public,public,,,yes
+62,17,pupa-new-400,Khatam Alanbia Hospital,ORGANIZATION,marked by PUPA,public,agreed,public,public,public,,,yes
+63,17,pupa-new-400,Khatam Al-Anbia hospital,ORGANIZATION,marked by PUPA,public,agreed,public,public,public,,,yes
+64,18,pupa-new-427,5 years old,AGE,added by Claude,abstractable,agreed,abstractable,abstractable,abstractable,,,yes
+65,18,pupa-new-427,During my time in the military,OCCUPATION,added by Claude,abstractable,agreed,abstractable,abstractable,abstractable,,,yes
+66,18,pupa-new-427,electrician,OCCUPATION,added by Claude,abstractable,agreed,abstractable,abstractable,abstractable,,,yes
+67,18,pupa-new-427,Rutgers,ORGANIZATION,marked by PUPA,abstractable,agreed,abstractable,abstractable,abstractable,,,yes
+68,18,pupa-new-427,Rutgers University,ORGANIZATION,marked by PUPA,abstractable,agreed,abstractable,abstractable,abstractable,,,yes
+69,19,pupa-new-430,CMIS,ORGANIZATION,marked by PUPA,abstractable,agreed,abstractable,abstractable,abstractable,,,yes
+70,19,pupa-new-430,CSMUN,ORGANIZATION,marked by PUPA,abstractable,agreed,abstractable,abstractable,abstractable,,,yes
+71,20,pupa-new-470,Christian Vaughn,PERSON,marked by PUPA,public,adjudicated,public,local-only,public,,,yes
+72,20,pupa-new-470,Selina Morano,PERSON,marked by PUPA,public,adjudicated,public,local-only,public,,,yes
+73,21,pupa-new-511,Yueyue Zhang,PERSON,marked by PUPA,local-only,agreed,local-only,local-only,local-only,,,yes
+74,21,pupa-new-511,Radboud University,ORGANIZATION,added by Claude,abstractable,agreed,abstractable,abstractable,abstractable,,,yes
+75,22,pupa-new-520,Accenture,ORGANIZATION,marked by PUPA,public,agreed,public,public,public,,,yes
+76,23,pupa-new-522,Google,ORGANIZATION,marked by PUPA,abstractable,adjudicated,public,abstractable,public,,,yes
+77,24,pupa-new-543,https://yuntian-deng-chatgpt.hf.space/run/predict,URL,marked by PUPA,public,agreed,public,public,public,,,yes
+78,24,pupa-new-543,wss://yuntian-deng-chatgpt.hf.space/queue/join,URL,marked by PUPA,public,agreed,public,public,public,,,yes
+79,24,pupa-new-543,https://chatgptbot.space/api/v1/chat/result,URL,marked by PUPA,public,agreed,public,public,public,,,yes
+80,25,pupa-new-547,tech stop,ORGANIZATION,marked by PUPA,abstractable,agreed,abstractable,abstractable,abstractable,,,yes
+81,25,pupa-new-547,madera,LOCATION,marked by PUPA,abstractable,agreed,abstractable,abstractable,abstractable,,,yes
+82,26,pupa-new-555,google/sdk_gphone64_arm64/emu64a:13/TE1A.220922.034/10940250:userdebug/dev-keys,OTHER,marked by PUPA,public,agreed,public,public,public,,,yes
+83,26,pupa-new-555,2023-11-28 15:02:20-0800,DATE_TIME,added by Claude,abstractable,adjudicated,abstractable,public,abstractable,,,yes
+84,26,pupa-new-555,com.Zadalhorof.AbjadWorld,OTHER,marked by PUPA,abstractable,adjudicated,abstractable,public,abstractable,,,yes
+85,27,pupa-new-557,graphic desginer freelance,OCCUPATION,added by Claude,public,adjudicated,public,abstractable,public,,,yes
+86,27,pupa-new-557,amer,PERSON,marked by PUPA,local-only,agreed,local-only,local-only,local-only,,,yes
+87,28,pupa-new-577,leica,ORGANIZATION,marked by PUPA,public,agreed,public,public,public,,,yes
+88,29,pupa-new-579,Mainfreight,ORGANIZATION,marked by PUPA,abstractable,agreed,abstractable,abstractable,abstractable,,,yes
+89,29,pupa-new-579,Over the past five years,DATE_TIME,added by Claude,abstractable,agreed,abstractable,abstractable,abstractable,,,yes
+90,30,pupa-new-623,"""Toon Blast""",OTHER,marked by PUPA,abstractable,adjudicated,public,abstractable,public,,,yes
+91,30,pupa-new-623,Peak Games,ORGANIZATION,marked by PUPA,abstractable,adjudicated,public,abstractable,public,,,yes
+92,30,pupa-new-623,$100 million,MONEY,added by Claude,abstractable,agreed,abstractable,abstractable,abstractable,,,yes
+93,30,pupa-new-623,"""Peak Casual""",ORGANIZATION,marked by PUPA,abstractable,agreed,abstractable,abstractable,abstractable,,,yes
+94,30,pupa-new-623,Lost Bubble,OTHER,marked by PUPA,abstractable,agreed,abstractable,abstractable,abstractable,,,yes
+95,30,pupa-new-623,Candy Crush Saga,OTHER,marked by PUPA,public,agreed,public,public,public,,,yes
+96,30,pupa-new-623,$24 million,MONEY,added by Claude,abstractable,agreed,abstractable,abstractable,abstractable,,,yes
+97,30,pupa-new-623,King.com,ORGANIZATION,marked by PUPA,abstractable,adjudicated,public,abstractable,public,,,yes
+98,30,pupa-new-623,£1 million,MONEY,added by Claude,abstractable,agreed,abstractable,abstractable,abstractable,,,yes
+99,30,pupa-new-623,"""Lost Bubble""",OTHER,marked by PUPA,abstractable,agreed,abstractable,abstractable,abstractable,,,yes
+100,30,pupa-new-623,"""Lost Jewels""",OTHER,marked by PUPA,abstractable,agreed,abstractable,abstractable,abstractable,,,yes
+101,30,pupa-new-623,"""Sultan Bubble""",OTHER,marked by PUPA,abstractable,agreed,abstractable,abstractable,abstractable,,,yes
+102,30,pupa-new-623,Ovi Store,ORGANIZATION,added by Claude,abstractable,adjudicated,public,abstractable,public,,,yes
+103,30,pupa-new-623,Nokia,ORGANIZATION,added by Claude,abstractable,adjudicated,public,abstractable,public,,,yes
+104,30,pupa-new-623,2001-2010,DATE_TIME,added by Claude,abstractable,agreed,abstractable,abstractable,abstractable,,,yes
+105,30,pupa-new-623,BridgeStone,ORGANIZATION,marked by PUPA,abstractable,agreed,abstractable,abstractable,abstractable,,,yes
+106,30,pupa-new-623,Symantec Europe,ORGANIZATION,marked by PUPA,abstractable,agreed,abstractable,abstractable,abstractable,,,yes
+107,31,pupa-new-624,Nina Flores,PERSON,marked by PUPA,local-only,agreed,local-only,local-only,local-only,,,yes
+108,31,pupa-new-624,Abuelita Yolie,PERSON,marked by PUPA,local-only,agreed,local-only,local-only,local-only,,,yes
+109,31,pupa-new-624,Star,PERSON,marked by PUPA,local-only,agreed,local-only,local-only,local-only,,,yes
+110,31,pupa-new-624,Mami Flores,PERSON,marked by PUPA,local-only,agreed,local-only,local-only,local-only,,,yes
+111,31,pupa-new-624,Papi Flores,PERSON,marked by PUPA,local-only,agreed,local-only,local-only,local-only,,,yes
+112,31,pupa-new-624,Tio Javier,PERSON,marked by PUPA,local-only,agreed,local-only,local-only,local-only,,,yes
+113,31,pupa-new-624,Chelsea,PERSON,marked by PUPA,local-only,agreed,local-only,local-only,local-only,,,yes
+114,31,pupa-new-624,Carlos,PERSON,marked by PUPA,local-only,agreed,local-only,local-only,local-only,,,yes
+115,31,pupa-new-624,Santi,PERSON,marked by PUPA,local-only,agreed,local-only,local-only,local-only,,,yes
+116,31,pupa-new-624,Mr. Lambert,PERSON,marked by PUPA,local-only,agreed,local-only,local-only,local-only,,,yes
+117,31,pupa-new-624,Claire,PERSON,marked by PUPA,local-only,agreed,local-only,local-only,local-only,,,yes
+118,31,pupa-new-624,Mrs. Goldstein,PERSON,marked by PUPA,local-only,agreed,local-only,local-only,local-only,,,yes
+119,31,pupa-new-624,Nico,PERSON,marked by PUPA,local-only,agreed,local-only,local-only,local-only,,,yes
+120,31,pupa-new-624,Dr. Kapur,PERSON,marked by PUPA,local-only,agreed,local-only,local-only,local-only,,,yes
+121,31,pupa-new-624,Mr. Kapur,PERSON,marked by PUPA,local-only,agreed,local-only,local-only,local-only,,,yes
+122,31,pupa-new-624,Mrs. Lin,PERSON,marked by PUPA,local-only,agreed,local-only,local-only,local-only,,,yes
+123,31,pupa-new-624,Mr. Lin,PERSON,marked by PUPA,local-only,agreed,local-only,local-only,local-only,,,yes
+124,31,pupa-new-624,Eddie Lin,PERSON,marked by PUPA,local-only,agreed,local-only,local-only,local-only,,,yes
+125,31,pupa-new-624,Skye Lin,PERSON,marked by PUPA,local-only,agreed,local-only,local-only,local-only,,,yes
+126,31,pupa-new-624,Mavis,PERSON,marked by PUPA,local-only,agreed,local-only,local-only,local-only,,,yes
+127,31,pupa-new-624,Rosie,PERSON,marked by PUPA,local-only,agreed,local-only,local-only,local-only,,,yes
+128,31,pupa-new-624,Suzy,PERSON,marked by PUPA,local-only,agreed,local-only,local-only,local-only,,,yes
+129,31,pupa-new-624,Aiden,PERSON,marked by PUPA,local-only,agreed,local-only,local-only,local-only,,,yes
+130,31,pupa-new-624,Polly,PERSON,marked by PUPA,local-only,agreed,local-only,local-only,local-only,,,yes
+131,32,pupa-new-651,Sam,PERSON,marked by PUPA,local-only,agreed,local-only,local-only,local-only,,,yes
+132,32,pupa-new-651,ABC Corp.,ORGANIZATION,marked by PUPA,abstractable,agreed,abstractable,abstractable,abstractable,,,yes
+133,32,pupa-new-651,"$100,000",MONEY,added by Claude,abstractable,agreed,abstractable,abstractable,abstractable,,,yes
+134,32,pupa-new-651,"$10,000",MONEY,added by Claude,abstractable,agreed,abstractable,abstractable,abstractable,,,yes
+135,32,pupa-new-651,"$50,000",MONEY,added by Claude,abstractable,agreed,abstractable,abstractable,abstractable,,,yes
+136,33,pupa-new-652,source0,OTHER,marked by PUPA,public,agreed,public,public,public,,,yes
+137,34,pupa-new-655,City of Arlington,ORGANIZATION,marked by PUPA,abstractable,agreed,abstractable,abstractable,abstractable,,,yes
+138,35,pupa-tnb-1,University,ORGANIZATION,marked by PUPA,abstractable,agreed,abstractable,abstractable,abstractable,,,yes
+139,36,pupa-tnb-5,processor in operations,OCCUPATION,added by Claude,abstractable,agreed,abstractable,abstractable,abstractable,,,yes
+140,36,pupa-tnb-5,"WIPRO, Noida",ORGANIZATION,marked by PUPA,abstractable,adjudicated,local-only,abstractable,local-only,,,yes
+141,37,pupa-tnb-13,SEEMA TANEJA,PERSON,marked by PUPA,local-only,agreed,local-only,local-only,local-only,,,yes
+142,37,pupa-tnb-13,BCOM,OTHER,added by Claude,abstractable,agreed,abstractable,abstractable,abstractable,,,yes
+143,37,pupa-tnb-13,PROFESSIONAL ARTIST,OCCUPATION,added by Claude,public,agreed,public,public,public,,,yes
+144,37,pupa-tnb-13,PIDILITE COMPANY,ORGANIZATION,marked by PUPA,abstractable,agreed,abstractable,abstractable,abstractable,,,yes
+145,37,pupa-tnb-13,8 YEARS,DATE_TIME,added by Claude,abstractable,agreed,abstractable,abstractable,abstractable,,,yes
+146,37,pupa-tnb-13,MGS HOSPITAL,ORGANIZATION,marked by PUPA,abstractable,agreed,abstractable,abstractable,abstractable,,,yes
+147,37,pupa-tnb-13,AKHIL BHARTIYA NATRA SANG,ORGANIZATION,marked by PUPA,abstractable,agreed,abstractable,abstractable,abstractable,,,yes
+148,37,pupa-tnb-13,SWAYAM TRUST NGO,ORGANIZATION,marked by PUPA,abstractable,agreed,abstractable,abstractable,abstractable,,,yes
+149,38,pupa-tnb-29,Ahmad,PERSON,marked by PUPA,local-only,agreed,local-only,local-only,local-only,,,yes
+150,38,pupa-tnb-29,<PRESIDIO_ANONYMIZED_PERSON>,PERSON,marked by PUPA,local-only,agreed,local-only,local-only,local-only,,,yes
+151,39,pupa-tnb-53,Murray,ORGANIZATION,marked by PUPA,abstractable,agreed,abstractable,abstractable,abstractable,,,yes
+152,39,pupa-tnb-53,Murray Countertops,ORGANIZATION,marked by PUPA,abstractable,agreed,abstractable,abstractable,abstractable,,,yes
+153,40,pupa-tnb-73,AIDA,ORGANIZATION,marked by PUPA,public,agreed,public,public,public,,,yes
+154,40,pupa-tnb-73,Abir Aly,PERSON,marked by PUPA,local-only,agreed,local-only,local-only,local-only,,,yes
+155,41,pupa-tnb-104,Frank,PERSON,marked by PUPA,local-only,agreed,local-only,local-only,local-only,,,yes
+156,41,pupa-tnb-104,Vincent,PERSON,added by Claude,local-only,agreed,local-only,local-only,local-only,,,yes
+157,41,pupa-tnb-104,Vincent van Lith,PERSON,marked by PUPA,local-only,agreed,local-only,local-only,local-only,,,yes
+158,41,pupa-tnb-104,1.75 instead of 2.00,MONEY,added by Claude,abstractable,agreed,abstractable,abstractable,abstractable,,,yes
+159,41,pupa-tnb-104,Amsterdam,LOCATION,marked by PUPA,abstractable,agreed,abstractable,abstractable,abstractable,,,yes
+160,42,pupa-tnb-115,Sandy,PERSON,marked by PUPA,local-only,agreed,local-only,local-only,local-only,,,yes
+161,42,pupa-tnb-115,Elenora,PERSON,marked by PUPA,local-only,agreed,local-only,local-only,local-only,,,yes
+162,42,pupa-tnb-115,Eleanora,PERSON,marked by PUPA,local-only,agreed,local-only,local-only,local-only,,,yes
+163,43,pupa-tnb-129,Silvercord,LOCATION,marked by PUPA,abstractable,agreed,abstractable,abstractable,abstractable,,,yes
+164,43,pupa-tnb-129,Silvercord YL,LOCATION,marked by PUPA,abstractable,agreed,abstractable,abstractable,abstractable,,,yes
+165,43,pupa-tnb-129,YL,ORGANIZATION,marked by PUPA,abstractable,agreed,abstractable,abstractable,abstractable,,,yes
+166,43,pupa-tnb-129,Yakiniku Like,ORGANIZATION,marked by PUPA,abstractable,agreed,abstractable,abstractable,abstractable,,,yes
+167,44,pupa-tnb-135,security,OCCUPATION,added by Claude,public,adjudicated,abstractable,public,abstractable,,,yes
+168,44,pupa-tnb-135,x,ORGANIZATION,marked by PUPA,abstractable,agreed,abstractable,abstractable,abstractable,,,yes
+169,44,pupa-tnb-135,earn from the indian stock market through doing future and option,OTHER,added by Claude,abstractable,agreed,abstractable,abstractable,abstractable,,,yes
+170,45,pupa-tnb-142,snowflake,ORGANIZATION,marked by PUPA,public,agreed,public,public,public,,,yes
+171,46,pupa-tnb-160,Kazuo Ueda,PERSON,marked by PUPA,public,agreed,public,public,public,,,yes
+172,47,pupa-tnb-163,Mecca,LOCATION,marked by PUPA,public,agreed,public,public,public,,,yes
+173,47,pupa-tnb-163,Saudi,NRP,marked by PUPA,public,agreed,public,public,public,,,yes
+174,48,pupa-tnb-186,Chris,PERSON,marked by PUPA,local-only,agreed,local-only,local-only,local-only,,,yes
+175,48,pupa-tnb-186,first week of November 2023,DATE_TIME,added by Claude,abstractable,agreed,abstractable,abstractable,abstractable,,,yes
+176,48,pupa-tnb-186,DEC/2023,DATE_TIME,added by Claude,abstractable,agreed,abstractable,abstractable,abstractable,,,yes
+177,48,pupa-tnb-186,local othaurity,ORGANIZATION,added by Claude,abstractable,agreed,abstractable,abstractable,abstractable,,,yes
+178,49,pupa-tnb-214,昨天,DATE_TIME,added by Claude,abstractable,agreed,abstractable,abstractable,abstractable,,,yes
+179,49,pupa-tnb-214,今天下午6、14，4：00-5：00,DATE_TIME,added by Claude,abstractable,agreed,abstractable,abstractable,abstractable,,,yes
+180,49,pupa-tnb-214,tearms,ORGANIZATION,marked by PUPA,abstractable,agreed,abstractable,abstractable,abstractable,,,yes
+181,49,pupa-tnb-214,Compliance System Training,OTHER,added by Claude,public,adjudicated,abstractable,public,abstractable,,,yes
+182,50,pupa-tnb-221,Sandra Trevino,PERSON,marked by PUPA,local-only,agreed,local-only,local-only,local-only,,,yes
+183,50,pupa-tnb-221,Trevino,PERSON,marked by PUPA,local-only,agreed,local-only,local-only,local-only,,,yes

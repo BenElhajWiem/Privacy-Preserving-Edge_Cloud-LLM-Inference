@@ -1,0 +1,31 @@
+{
+ "data": "pupa_new",
+ "split": "dev",
+ "seed": 0,
+ "edge": "llama3.1:8b-instruct-q4_K_M",
+ "cloud": "claude-sonnet-5-5",
+ "rows": [
+  {
+   "system": "redact_send",
+   "edge": "llama3.1:8b-instruct-q4_K_M",
+   "at_least_as_good": 0.12,
+   "exact_match": null,
+   "verdicts": {
+    "win": 9,
+    "tie": 9,
+    "loss": 128
+   },
+   "hard_violation": 0.10666666666666667,
+   "hard_violation_strict": 0.11333333333333333,
+   "span_leak_local_only": 0.1885245901639344,
+   "abstraction_compliance": 0.6071428571428572,
+   "attacker_reconstruction": null,
+   "attacker_prior": null,
+   "cloud_calls": 0.8733333333333333,
+   "cloud_in_tokens": 315.1,
+   "cloud_out_tokens": 618.16,
+   "edge_s": 2.0063168557484943,
+   "wall_s": 3.731952430407206
+  }
+ ]
+}

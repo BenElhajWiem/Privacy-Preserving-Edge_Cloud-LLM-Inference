@@ -1,0 +1,67 @@
+{
+ "privmed_prism": {
+  "examples": 40,
+  "fixes": {
+   "age resampled (>95)": 3,
+   "minor: written by a parent": 9
+  },
+  "spans": 469,
+  "by_label": {
+   "local-only": 349,
+   "abstractable": 120
+  },
+  "by_category": {
+   "MEDICAL_CONDITION": 180,
+   "ORGANIZATION": 80,
+   "PERSON": 49,
+   "AGE": 40,
+   "LOCATION": 40,
+   "ID_NUMBER": 40,
+   "PHONE_NUMBER": 40
+  }
+ },
+ "privmed_test": {
+  "symptom spans": 990,
+  "symptom phrases not found in text": 0,
+  "opus correct": 177,
+  "examples": 212,
+  "opus_accuracy": 0.8349056603773585,
+  "diagnoses": 22,
+  "spans": 2474,
+  "by_label": {
+   "local-only": 1838,
+   "abstractable": 636
+  },
+  "by_category": {
+   "MEDICAL_CONDITION": 990,
+   "ORGANIZATION": 424,
+   "PERSON": 212,
+   "AGE": 212,
+   "LOCATION": 212,
+   "ID_NUMBER": 212,
+   "PHONE_NUMBER": 212
+  }
+ },
+ "privmed_dev": {
+  "symptom spans": 205,
+  "symptom phrases not found in text": 0,
+  "opus correct": 33,
+  "examples": 40,
+  "opus_accuracy": 0.825,
+  "diagnoses": 19,
+  "spans": 485,
+  "by_label": {
+   "local-only": 365,
+   "abstractable": 120
+  },
+  "by_category": {
+   "MEDICAL_CONDITION": 205,
+   "ORGANIZATION": 80,
+   "PERSON": 40,
+   "AGE": 40,
+   "LOCATION": 40,
+   "ID_NUMBER": 40,
+   "PHONE_NUMBER": 40
+  }
+ }
+}

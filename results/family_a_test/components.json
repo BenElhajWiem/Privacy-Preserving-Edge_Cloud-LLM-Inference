@@ -1,0 +1,789 @@
+{
+ "test": {
+  "qwen3-1.7b": {
+   "data": "pupa_tnb",
+   "gate": {
+    "threshold": 0.8194486668515717,
+    "gate": {
+     "sent": 0.2517482517482518,
+     "quality": 0.04895104895104895,
+     "hard": 0.006993006993006993,
+     "local_leaked": 0.007142857142857143
+    },
+    "send_all": {
+     "sent": 1.0,
+     "quality": 0.04195804195804196,
+     "hard": 0.013986013986013986,
+     "local_leaked": 0.02142857142857143
+    },
+    "send_none": {
+     "sent": 0.0,
+     "quality": 0.04895104895104895,
+     "hard": 0.0,
+     "local_leaked": 0.0
+    },
+    "oracle": {
+     "sent": 0.02097902097902098,
+     "quality": 0.06993006993006994,
+     "hard": 0.0,
+     "local_leaked": 0.0
+    },
+    "random": {
+     "sent": 0.2517482517482518,
+     "quality": 0.047190571666096144,
+     "hard": 0.0035209545699056194
+    },
+    "judged_both": 143,
+    "cloud_better": 3,
+    "edge_good": 7,
+    "auroc_cloud_better": 0.2833333333333333,
+    "auroc_edge_good": 0.740546218487395,
+    "ece_edge_good": 0.8187530622892288,
+    "mean_confidence": 0.8677041112402777,
+    "equal_quality": {
+     "sent": 0.0,
+     "quality": 0.04895104895104895,
+     "hard": 0.0,
+     "local_leaked": 0.0,
+     "threshold": 0.0
+    },
+    "gate_minus_send_all": {
+     "quality": 0.006993006993006992,
+     "quality_ci": [
+      -0.027972027972027975,
+      0.04195804195804197
+     ],
+     "hard": -0.006993006993006993,
+     "hard_ci": [
+      -0.020979020979020983,
+      0.0
+     ]
+    }
+   },
+   "guard": {
+    "as labeled": 86,
+    "hard_before": 7,
+    "hard_after": 2,
+    "hard_strict_before": 7,
+    "hard_strict_after": 2,
+    "local_n": 140,
+    "local_leaked_before": 12,
+    "local_leaked_after": 3,
+    "added": 0,
+    "inconsistent": 0,
+    "not sent": 38,
+    "blocked": 57,
+    "blocked_clean": 51,
+    "blocked_clean_not_sent": 33,
+    "after hiding": 19,
+    "checks": {
+     "leak check": 45,
+     "known value": 18,
+     "detector": 5
+    },
+    "missed_categories": {
+     "PERSON": 1,
+     "OTHER": 1
+    }
+   },
+   "labeler": {
+    "by_label": {
+     "abstractable": {
+      "spans": 222,
+      "hidden": 206,
+      "recall": 0.9279279279279279
+     },
+     "public": {
+      "spans": 249,
+      "hidden": 226,
+      "recall": 0.9076305220883534
+     },
+     "local-only": {
+      "spans": 140,
+      "hidden": 128,
+      "recall": 0.9142857142857143
+     }
+    },
+    "local_only_by_category": {
+     "PERSON": {
+      "spans": 112,
+      "hidden": 106,
+      "recall": 0.9464285714285714
+     },
+     "MEDICAL_CONDITION": {
+      "spans": 10,
+      "hidden": 5,
+      "recall": 0.5
+     },
+     "OTHER": {
+      "spans": 6,
+      "hidden": 5,
+      "recall": 0.8333333333333334
+     },
+     "ID_NUMBER": {
+      "spans": 5,
+      "hidden": 5,
+      "recall": 1.0
+     },
+     "ADDRESS": {
+      "spans": 4,
+      "hidden": 4,
+      "recall": 1.0
+     },
+     "PHONE_NUMBER": {
+      "spans": 2,
+      "hidden": 2,
+      "recall": 1.0
+     },
+     "NRP": {
+      "spans": 1,
+      "hidden": 1,
+      "recall": 1.0
+     }
+    },
+    "words": {
+     "all": 29907,
+     "private": 1132,
+     "hidden": 6470,
+     "hidden_private": 988,
+     "hidden_public": 599,
+     "missed_private": 144
+    },
+    "word_precision": 0.1527047913446677,
+    "word_public_share": 0.09258114374034003,
+    "word_unlabeled_share": 0.7547140649149923,
+    "word_recall": 0.872791519434629,
+    "words_hidden_share": 0.21633731233490489
+   }
+  },
+  "qwen3-4b-q4_K_M": {
+   "data": "pupa_tnb",
+   "gate": {
+    "threshold": 0.9409370179028549,
+    "gate": {
+     "sent": 0.8041958041958042,
+     "quality": 0.2727272727272727,
+     "hard": 0.04195804195804196,
+     "local_leaked": 0.05714285714285714
+    },
+    "send_all": {
+     "sent": 1.0,
+     "quality": 0.2867132867132867,
+     "hard": 0.04895104895104895,
+     "local_leaked": 0.06428571428571428
+    },
+    "send_none": {
+     "sent": 0.0,
+     "quality": 0.11188811188811189,
+     "hard": 0.0,
+     "local_leaked": 0.0
+    },
+    "oracle": {
+     "sent": 0.20279720279720279,
+     "quality": 0.3146853146853147,
+     "hard": 0.02097902097902098,
+     "local_leaked": 0.03571428571428571
+    },
+    "random": {
+     "sent": 0.8041958041958042,
+     "quality": 0.25248178395031545,
+     "hard": 0.03936622817741699
+    },
+    "judged_both": 143,
+    "cloud_better": 29,
+    "edge_good": 16,
+    "auroc_cloud_better": 0.5417422867513612,
+    "auroc_edge_good": 0.6687992125984252,
+    "ece_edge_good": 0.7703838452159133,
+    "mean_confidence": 0.8822719571040253,
+    "equal_quality": {
+     "sent": 0.993006993006993,
+     "quality": 0.2867132867132867,
+     "hard": 0.04195804195804196,
+     "local_leaked": 0.05714285714285714,
+     "threshold": 0.9913297430422408
+    },
+    "gate_minus_send_all": {
+     "quality": -0.013986013986014012,
+     "quality_ci": [
+      -0.04195804195804198,
+      0.013986013986013957
+     ],
+     "hard": -0.006993006993006992,
+     "hard_ci": [
+      -0.020979020979020983,
+      0.0
+     ]
+    }
+   },
+   "guard": {
+    "as labeled": 117,
+    "hard_before": 11,
+    "hard_after": 7,
+    "hard_strict_before": 13,
+    "hard_strict_after": 9,
+    "local_n": 140,
+    "local_leaked_before": 18,
+    "local_leaked_after": 9,
+    "added": 0,
+    "inconsistent": 0,
+    "after hiding": 17,
+    "blocked": 26,
+    "blocked_clean": 22,
+    "blocked_clean_not_sent": 7,
+    "not sent": 9,
+    "checks": {
+     "leak check": 19,
+     "known value": 7,
+     "detector": 5
+    },
+    "missed_categories": {
+     "PERSON": 4,
+     "OTHER": 1,
+     "MEDICAL_CONDITION": 1,
+     "NRP": 1
+    }
+   },
+   "labeler": {
+    "by_label": {
+     "abstractable": {
+      "spans": 222,
+      "hidden": 143,
+      "recall": 0.6441441441441441
+     },
+     "public": {
+      "spans": 249,
+      "hidden": 164,
+      "recall": 0.6586345381526104
+     },
+     "local-only": {
+      "spans": 140,
+      "hidden": 120,
+      "recall": 0.8571428571428571
+     }
+    },
+    "local_only_by_category": {
+     "PERSON": {
+      "spans": 112,
+      "hidden": 98,
+      "recall": 0.875
+     },
+     "MEDICAL_CONDITION": {
+      "spans": 10,
+      "hidden": 7,
+      "recall": 0.7
+     },
+     "OTHER": {
+      "spans": 6,
+      "hidden": 4,
+      "recall": 0.6666666666666666
+     },
+     "ID_NUMBER": {
+      "spans": 5,
+      "hidden": 5,
+      "recall": 1.0
+     },
+     "ADDRESS": {
+      "spans": 4,
+      "hidden": 4,
+      "recall": 1.0
+     },
+     "PHONE_NUMBER": {
+      "spans": 2,
+      "hidden": 2,
+      "recall": 1.0
+     },
+     "NRP": {
+      "spans": 1,
+      "hidden": 0,
+      "recall": 0.0
+     }
+    },
+    "words": {
+     "all": 29907,
+     "private": 1132,
+     "missed_private": 396,
+     "hidden": 3231,
+     "hidden_private": 736,
+     "hidden_public": 464
+    },
+    "word_precision": 0.22779325286289073,
+    "word_public_share": 0.14360878984834416,
+    "word_unlabeled_share": 0.6285979572887651,
+    "word_recall": 0.6501766784452296,
+    "words_hidden_share": 0.10803490821546795
+   }
+  },
+  "qwen3-4b-instruct-2507": {
+   "data": "pupa_tnb",
+   "gate": {
+    "threshold": 0.909081103716165,
+    "gate": {
+     "sent": 0.8041958041958042,
+     "quality": 0.26573426573426573,
+     "hard": 0.03496503496503497,
+     "local_leaked": 0.06428571428571428
+    },
+    "send_all": {
+     "sent": 1.0,
+     "quality": 0.2937062937062937,
+     "hard": 0.04895104895104895,
+     "local_leaked": 0.07857142857142857
+    },
+    "send_none": {
+     "sent": 0.0,
+     "quality": 0.1048951048951049,
+     "hard": 0.0,
+     "local_leaked": 0.0
+    },
+    "oracle": {
+     "sent": 0.22377622377622378,
+     "quality": 0.32867132867132864,
+     "hard": 0.02097902097902098,
+     "local_leaked": 0.02857142857142857
+    },
+    "random": {
+     "sent": 0.8041958041958042,
+     "quality": 0.2567362707222847,
+     "hard": 0.03936622817741699
+    },
+    "judged_both": 143,
+    "cloud_better": 32,
+    "edge_good": 15,
+    "auroc_cloud_better": 0.45805180180180183,
+    "auroc_edge_good": 0.6864583333333333,
+    "ece_edge_good": 0.7198693232958547,
+    "mean_confidence": 0.8247644281909595,
+    "equal_quality": {
+     "sent": 0.8951048951048951,
+     "quality": 0.2937062937062937,
+     "hard": 0.04895104895104895,
+     "local_leaked": 0.07857142857142857,
+     "threshold": 0.931856296036411
+    },
+    "gate_minus_send_all": {
+     "quality": -0.02797202797202797,
+     "quality_ci": [
+      -0.06993006993006995,
+      0.013986013986013984
+     ],
+     "hard": -0.013986013986013984,
+     "hard_ci": [
+      -0.03496503496503497,
+      0.0
+     ]
+    }
+   },
+   "guard": {
+    "as labeled": 119,
+    "hard_before": 11,
+    "hard_after": 7,
+    "hard_strict_before": 12,
+    "hard_strict_after": 8,
+    "local_n": 140,
+    "local_leaked_before": 17,
+    "local_leaked_after": 11,
+    "added": 0,
+    "inconsistent": 0,
+    "after hiding": 11,
+    "blocked": 24,
+    "blocked_clean": 20,
+    "blocked_clean_not_sent": 10,
+    "not sent": 13,
+    "checks": {
+     "leak check": 17,
+     "detector": 7,
+     "known value": 8
+    },
+    "missed_categories": {
+     "PERSON": 5,
+     "ADDRESS,PERSON": 1,
+     "OTHER": 1
+    }
+   },
+   "labeler": {
+    "by_label": {
+     "abstractable": {
+      "spans": 222,
+      "hidden": 144,
+      "recall": 0.6486486486486487
+     },
+     "public": {
+      "spans": 249,
+      "hidden": 161,
+      "recall": 0.6465863453815262
+     },
+     "local-only": {
+      "spans": 140,
+      "hidden": 122,
+      "recall": 0.8714285714285714
+     }
+    },
+    "local_only_by_category": {
+     "PERSON": {
+      "spans": 112,
+      "hidden": 101,
+      "recall": 0.9017857142857143
+     },
+     "MEDICAL_CONDITION": {
+      "spans": 10,
+      "hidden": 9,
+      "recall": 0.9
+     },
+     "OTHER": {
+      "spans": 6,
+      "hidden": 4,
+      "recall": 0.6666666666666666
+     },
+     "ID_NUMBER": {
+      "spans": 5,
+      "hidden": 3,
+      "recall": 0.6
+     },
+     "ADDRESS": {
+      "spans": 4,
+      "hidden": 2,
+      "recall": 0.5
+     },
+     "PHONE_NUMBER": {
+      "spans": 2,
+      "hidden": 2,
+      "recall": 1.0
+     },
+     "NRP": {
+      "spans": 1,
+      "hidden": 1,
+      "recall": 1.0
+     }
+    },
+    "words": {
+     "all": 29907,
+     "private": 1132,
+     "missed_private": 355,
+     "hidden": 3117,
+     "hidden_private": 777,
+     "hidden_public": 435
+    },
+    "word_precision": 0.2492781520692974,
+    "word_public_share": 0.1395572666025024,
+    "word_unlabeled_share": 0.6111645813282002,
+    "word_recall": 0.6863957597173145,
+    "words_hidden_share": 0.10422309158391012
+   }
+  },
+  "llama3.2-3b": {
+   "data": "pupa_tnb",
+   "gate": {
+    "threshold": 0.9219673220485389,
+    "gate": {
+     "sent": 0.9370629370629371,
+     "quality": 0.09090909090909091,
+     "hard": 0.006993006993006993,
+     "local_leaked": 0.014285714285714285
+    },
+    "send_all": {
+     "sent": 1.0,
+     "quality": 0.09090909090909091,
+     "hard": 0.013986013986013986,
+     "local_leaked": 0.03571428571428571
+    },
+    "send_none": {
+     "sent": 0.0,
+     "quality": 0.03496503496503497,
+     "hard": 0.0,
+     "local_leaked": 0.0
+    },
+    "oracle": {
+     "sent": 0.06993006993006994,
+     "quality": 0.1048951048951049,
+     "hard": 0.006993006993006993,
+     "local_leaked": 0.014285714285714285
+    },
+    "random": {
+     "sent": 0.9370629370629371,
+     "quality": 0.0873881363391853,
+     "hard": 0.013105775343537582
+    },
+    "judged_both": 143,
+    "cloud_better": 10,
+    "edge_good": 5,
+    "auroc_cloud_better": 0.543609022556391,
+    "auroc_edge_good": 0.5478260869565217,
+    "ece_edge_good": 0.7811151595386836,
+    "mean_confidence": 0.8160801945037184,
+    "equal_quality": {
+     "sent": 0.8811188811188811,
+     "quality": 0.09090909090909091,
+     "hard": 0.006993006993006993,
+     "local_leaked": 0.014285714285714285,
+     "threshold": 0.8864552704179279
+    },
+    "gate_minus_send_all": {
+     "quality": 0.0,
+     "quality_ci": [
+      0.0,
+      0.0
+     ],
+     "hard": -0.006993006993006993,
+     "hard_ci": [
+      -0.020979020979020983,
+      0.0
+     ]
+    }
+   },
+   "guard": {
+    "as labeled": 67,
+    "hard_before": 6,
+    "hard_after": 2,
+    "hard_strict_before": 7,
+    "hard_strict_after": 4,
+    "local_n": 140,
+    "local_leaked_before": 11,
+    "local_leaked_after": 5,
+    "added": 0,
+    "inconsistent": 0,
+    "after hiding": 50,
+    "blocked": 76,
+    "blocked_clean": 71,
+    "blocked_clean_not_sent": 25,
+    "not sent": 26,
+    "checks": {
+     "known value": 15,
+     "leak check": 73,
+     "detector": 6
+    },
+    "missed_categories": {
+     "PERSON": 1,
+     "OTHER": 1
+    }
+   },
+   "labeler": {
+    "by_label": {
+     "abstractable": {
+      "spans": 222,
+      "hidden": 204,
+      "recall": 0.918918918918919
+     },
+     "public": {
+      "spans": 249,
+      "hidden": 225,
+      "recall": 0.9036144578313253
+     },
+     "local-only": {
+      "spans": 140,
+      "hidden": 128,
+      "recall": 0.9142857142857143
+     }
+    },
+    "local_only_by_category": {
+     "PERSON": {
+      "spans": 112,
+      "hidden": 108,
+      "recall": 0.9642857142857143
+     },
+     "MEDICAL_CONDITION": {
+      "spans": 10,
+      "hidden": 6,
+      "recall": 0.6
+     },
+     "OTHER": {
+      "spans": 6,
+      "hidden": 3,
+      "recall": 0.5
+     },
+     "ID_NUMBER": {
+      "spans": 5,
+      "hidden": 4,
+      "recall": 0.8
+     },
+     "ADDRESS": {
+      "spans": 4,
+      "hidden": 4,
+      "recall": 1.0
+     },
+     "PHONE_NUMBER": {
+      "spans": 2,
+      "hidden": 2,
+      "recall": 1.0
+     },
+     "NRP": {
+      "spans": 1,
+      "hidden": 1,
+      "recall": 1.0
+     }
+    },
+    "words": {
+     "all": 29907,
+     "private": 1132,
+     "hidden": 4730,
+     "hidden_private": 932,
+     "hidden_public": 573,
+     "missed_private": 200
+    },
+    "word_precision": 0.1970401691331924,
+    "word_public_share": 0.12114164904862579,
+    "word_unlabeled_share": 0.6818181818181818,
+    "word_recall": 0.823321554770318,
+    "words_hidden_share": 0.1581569532216538
+   }
+  },
+  "gemma3-4b": {
+   "data": "pupa_tnb",
+   "gate": {
+    "threshold": 0.7566393999876936,
+    "gate": {
+     "sent": 0.03496503496503497,
+     "quality": 0.04895104895104895,
+     "hard": 0.0,
+     "local_leaked": 0.0
+    },
+    "send_all": {
+     "sent": 1.0,
+     "quality": 0.1258741258741259,
+     "hard": 0.04195804195804196,
+     "local_leaked": 0.05
+    },
+    "send_none": {
+     "sent": 0.0,
+     "quality": 0.04895104895104895,
+     "hard": 0.0,
+     "local_leaked": 0.0
+    },
+    "oracle": {
+     "sent": 0.08391608391608392,
+     "quality": 0.13286713286713286,
+     "hard": 0.006993006993006993,
+     "local_leaked": 0.007142857142857143
+    },
+    "random": {
+     "sent": 0.03496503496503497,
+     "quality": 0.05164066702528241,
+     "hard": 0.001467064404127341
+    },
+    "judged_both": 143,
+    "cloud_better": 12,
+    "edge_good": 7,
+    "auroc_cloud_better": 0.38676844783715014,
+    "auroc_edge_good": 0.45588235294117646,
+    "ece_edge_good": 0.8052798535570354,
+    "mean_confidence": 0.8542309025080842,
+    "equal_quality": {
+     "sent": 0.958041958041958,
+     "quality": 0.1258741258741259,
+     "hard": 0.04195804195804196,
+     "local_leaked": 0.05,
+     "threshold": 0.9347643115101744
+    },
+    "gate_minus_send_all": {
+     "quality": -0.07692307692307693,
+     "quality_ci": [
+      -0.1258741258741259,
+      -0.027972027972027975
+     ],
+     "hard": -0.04195804195804196,
+     "hard_ci": [
+      -0.07692307692307693,
+      -0.013986013986013986
+     ]
+    }
+   },
+   "guard": {
+    "as labeled": 102,
+    "hard_before": 7,
+    "hard_after": 6,
+    "hard_strict_before": 8,
+    "hard_strict_after": 6,
+    "local_n": 140,
+    "local_leaked_before": 9,
+    "local_leaked_after": 7,
+    "added": 0,
+    "inconsistent": 0,
+    "after hiding": 20,
+    "blocked": 41,
+    "blocked_clean": 37,
+    "blocked_clean_not_sent": 20,
+    "not sent": 21,
+    "checks": {
+     "leak check": 35,
+     "known value": 9,
+     "detector": 7
+    },
+    "missed_categories": {
+     "PERSON": 3,
+     "ID_NUMBER": 1,
+     "OTHER": 1,
+     "MEDICAL_CONDITION": 1
+    }
+   },
+   "labeler": {
+    "by_label": {
+     "abstractable": {
+      "spans": 222,
+      "hidden": 209,
+      "recall": 0.9414414414414415
+     },
+     "public": {
+      "spans": 249,
+      "hidden": 217,
+      "recall": 0.8714859437751004
+     },
+     "local-only": {
+      "spans": 140,
+      "hidden": 130,
+      "recall": 0.9285714285714286
+     }
+    },
+    "local_only_by_category": {
+     "PERSON": {
+      "spans": 112,
+      "hidden": 106,
+      "recall": 0.9464285714285714
+     },
+     "MEDICAL_CONDITION": {
+      "spans": 10,
+      "hidden": 8,
+      "recall": 0.8
+     },
+     "OTHER": {
+      "spans": 6,
+      "hidden": 5,
+      "recall": 0.8333333333333334
+     },
+     "ID_NUMBER": {
+      "spans": 5,
+      "hidden": 4,
+      "recall": 0.8
+     },
+     "ADDRESS": {
+      "spans": 4,
+      "hidden": 4,
+      "recall": 1.0
+     },
+     "PHONE_NUMBER": {
+      "spans": 2,
+      "hidden": 2,
+      "recall": 1.0
+     },
+     "NRP": {
+      "spans": 1,
+      "hidden": 1,
+      "recall": 1.0
+     }
+    },
+    "words": {
+     "all": 29907,
+     "private": 1132,
+     "hidden": 6456,
+     "hidden_private": 945,
+     "hidden_public": 553,
+     "missed_private": 187
+    },
+    "word_precision": 0.14637546468401488,
+    "word_public_share": 0.08565675340768278,
+    "word_unlabeled_share": 0.7679677819083024,
+    "word_recall": 0.8348056537102474,
+    "words_hidden_share": 0.21586919450295916
+   }
+  }
+ }
+}

@@ -1,0 +1,1827 @@
+{
+ "gemma3:4b-it-q4_K_M": {
+  "ci": {
+   "edge_only": {
+    "at_least_as_good": {
+     "value": NaN,
+     "low": NaN,
+     "high": NaN
+    },
+    "hard_violation": {
+     "value": 0.0,
+     "low": 0.0,
+     "high": 0.0
+    },
+    "hard_violation_strict": {
+     "value": 0.0,
+     "low": 0.0,
+     "high": 0.0
+    },
+    "span_leak_local_only": {
+     "value": 0.0,
+     "low": 0.0,
+     "high": 0.0
+    },
+    "abstraction_compliance": {
+     "value": 1.0,
+     "low": 1.0,
+     "high": 1.0
+    },
+    "attacker_reconstruction": {
+     "value": 0.020674646354733407,
+     "low": 0.014762009968045407,
+     "high": 0.026864477221278996
+    },
+    "cloud_calls": {
+     "value": 0.0,
+     "low": 0.0,
+     "high": 0.0
+    },
+    "cloud_in_tokens": {
+     "value": 0.0,
+     "low": 0.0,
+     "high": 0.0
+    },
+    "cloud_out_tokens": {
+     "value": 0.0,
+     "low": 0.0,
+     "high": 0.0
+    }
+   },
+   "redact_send": {
+    "at_least_as_good": {
+     "value": NaN,
+     "low": NaN,
+     "high": NaN
+    },
+    "hard_violation": {
+     "value": 0.9905660377358491,
+     "low": 0.9764150943396226,
+     "high": 1.0
+    },
+    "hard_violation_strict": {
+     "value": 0.9905660377358491,
+     "low": 0.9764150943396226,
+     "high": 1.0
+    },
+    "span_leak_local_only": {
+     "value": 0.5326441784548422,
+     "low": 0.5191342453251967,
+     "high": 0.5452632215350683
+    },
+    "abstraction_compliance": {
+     "value": 0.9811320754716981,
+     "low": 0.970125786163522,
+     "high": 0.9905660377358491
+    },
+    "attacker_reconstruction": {
+     "value": 0.26387377584330796,
+     "low": 0.24062979257122233,
+     "high": 0.2877385414531574
+    },
+    "cloud_calls": {
+     "value": 1.0,
+     "low": 1.0,
+     "high": 1.0
+    },
+    "cloud_in_tokens": {
+     "value": 355.5,
+     "low": 353.14150943396226,
+     "high": 358.1509433962264
+    },
+    "cloud_out_tokens": {
+     "value": 430.00943396226415,
+     "low": 420.32535377358494,
+     "high": 439.8496462264151
+    }
+   },
+   "method": {
+    "at_least_as_good": {
+     "value": NaN,
+     "low": NaN,
+     "high": NaN
+    },
+    "hard_violation": {
+     "value": 0.0,
+     "low": 0.0,
+     "high": 0.0
+    },
+    "hard_violation_strict": {
+     "value": 0.0047169811320754715,
+     "low": 0.0,
+     "high": 0.014150943396226415
+    },
+    "span_leak_local_only": {
+     "value": 0.0,
+     "low": 0.0,
+     "high": 0.0
+    },
+    "abstraction_compliance": {
+     "value": 1.0,
+     "low": 1.0,
+     "high": 1.0
+    },
+    "attacker_reconstruction": {
+     "value": 0.014689880304679,
+     "low": 0.008705114254624592,
+     "high": 0.021393307734503566
+    },
+    "cloud_calls": {
+     "value": 1.0,
+     "low": 1.0,
+     "high": 1.0
+    },
+    "cloud_in_tokens": {
+     "value": 257.0,
+     "low": 257.0,
+     "high": 257.0
+    },
+    "cloud_out_tokens": {
+     "value": 1873.0,
+     "low": 1873.0,
+     "high": 1873.0
+    }
+   },
+   "cloud_full": {
+    "at_least_as_good": {
+     "value": NaN,
+     "low": NaN,
+     "high": NaN
+    },
+    "hard_violation": {
+     "value": 1.0,
+     "low": 1.0,
+     "high": 1.0
+    },
+    "hard_violation_strict": {
+     "value": 1.0,
+     "low": 1.0,
+     "high": 1.0
+    },
+    "span_leak_local_only": {
+     "value": 1.0,
+     "low": 1.0,
+     "high": 1.0
+    },
+    "abstraction_compliance": {
+     "value": 0.0,
+     "low": 0.0,
+     "high": 0.0
+    },
+    "attacker_reconstruction": {
+     "value": 0.7426550598476604,
+     "low": 0.7201724707193854,
+     "high": 0.7658402943604584
+    },
+    "cloud_calls": {
+     "value": 1.0,
+     "low": 1.0,
+     "high": 1.0
+    },
+    "cloud_in_tokens": {
+     "value": 286.3443396226415,
+     "low": 284.57547169811323,
+     "high": 288.1556603773585
+    },
+    "cloud_out_tokens": {
+     "value": 485.8301886792453,
+     "low": 476.24033018867925,
+     "high": 495.7359669811321
+    }
+   }
+  },
+  "paired_against": {
+   "system": "redact_send",
+   "tests": {
+    "edge_only": {
+     "at_least_as_good": {
+      "diff": NaN,
+      "low": NaN,
+      "high": NaN,
+      "p": NaN
+     },
+     "hard_violation": {
+      "diff": -0.9905660377358491,
+      "low": -1.0,
+      "high": -0.9764150943396226,
+      "p": 0.0
+     },
+     "hard_violation_strict": {
+      "diff": -0.9905660377358491,
+      "low": -1.0,
+      "high": -0.9764150943396226,
+      "p": 0.0
+     },
+     "span_leak_local_only": {
+      "diff": -0.5326441784548422,
+      "low": -0.5452632215350683,
+      "high": -0.5191342453251967,
+      "p": 0.0
+     },
+     "abstraction_compliance": {
+      "diff": 0.018867924528301883,
+      "low": 0.009433962264150941,
+      "high": 0.029874213836478036,
+      "p": 0.0
+     },
+     "attacker_reconstruction": {
+      "diff": -0.24319912948857456,
+      "low": -0.26521992839805997,
+      "high": -0.22167749283621493,
+      "p": 0.0
+     },
+     "cloud_calls": {
+      "diff": -1.0,
+      "low": -1.0,
+      "high": -1.0,
+      "p": 0.0
+     },
+     "cloud_in_tokens": {
+      "diff": -355.5,
+      "low": -358.1509433962264,
+      "high": -353.14150943396226,
+      "p": 0.0
+     },
+     "cloud_out_tokens": {
+      "diff": -430.00943396226415,
+      "low": -439.8496462264151,
+      "high": -420.32535377358494,
+      "p": 0.0
+     }
+    },
+    "method": {
+     "at_least_as_good": {
+      "diff": NaN,
+      "low": NaN,
+      "high": NaN,
+      "p": NaN
+     },
+     "hard_violation": {
+      "diff": -0.9905660377358491,
+      "low": -1.0,
+      "high": -0.9764150943396226,
+      "p": 0.0
+     },
+     "hard_violation_strict": {
+      "diff": -0.9858490566037735,
+      "low": -1.0,
+      "high": -0.9669811320754716,
+      "p": 0.0
+     },
+     "span_leak_local_only": {
+      "diff": -0.5326441784548422,
+      "low": -0.5452632215350683,
+      "high": -0.5191342453251967,
+      "p": 0.0
+     },
+     "abstraction_compliance": {
+      "diff": 0.018867924528301883,
+      "low": 0.009433962264150941,
+      "high": 0.029874213836478036,
+      "p": 0.0
+     },
+     "attacker_reconstruction": {
+      "diff": -0.24918389553862896,
+      "low": -0.27277517320081923,
+      "high": -0.22657846310045054,
+      "p": 0.0
+     },
+     "cloud_calls": {
+      "diff": 0.0,
+      "low": 0.0,
+      "high": 0.0,
+      "p": 1.0
+     },
+     "cloud_in_tokens": {
+      "diff": -98.5,
+      "low": -101.15094339622641,
+      "high": -96.14150943396226,
+      "p": 0.0
+     },
+     "cloud_out_tokens": {
+      "diff": 1442.9905660377358,
+      "low": 1433.150353773585,
+      "high": 1452.674646226415,
+      "p": 0.0
+     }
+    },
+    "cloud_full": {
+     "at_least_as_good": {
+      "diff": NaN,
+      "low": NaN,
+      "high": NaN,
+      "p": NaN
+     },
+     "hard_violation": {
+      "diff": 0.009433962264150941,
+      "low": 0.0,
+      "high": 0.02358490566037741,
+      "p": 0.2784
+     },
+     "hard_violation_strict": {
+      "diff": 0.009433962264150941,
+      "low": 0.0,
+      "high": 0.02358490566037741,
+      "p": 0.2784
+     },
+     "span_leak_local_only": {
+      "diff": 0.46735582154515776,
+      "low": 0.4547367784649316,
+      "high": 0.4808657546748033,
+      "p": 0.0
+     },
+     "abstraction_compliance": {
+      "diff": -0.9811320754716981,
+      "low": -0.9905660377358491,
+      "high": -0.970125786163522,
+      "p": 0.0
+     },
+     "attacker_reconstruction": {
+      "diff": 0.4787812840043525,
+      "low": 0.4585547290116897,
+      "high": 0.4989011290575506,
+      "p": 0.0
+     },
+     "cloud_calls": {
+      "diff": 0.0,
+      "low": 0.0,
+      "high": 0.0,
+      "p": 1.0
+     },
+     "cloud_in_tokens": {
+      "diff": -69.15566037735852,
+      "low": -70.8820754716981,
+      "high": -67.76415094339626,
+      "p": 0.0
+     },
+     "cloud_out_tokens": {
+      "diff": 55.82075471698113,
+      "low": 45.386556603773606,
+      "high": 66.40624999999996,
+      "p": 0.0
+     }
+    }
+   }
+  }
+ },
+ "llama3.2:3b": {
+  "ci": {
+   "edge_only": {
+    "at_least_as_good": {
+     "value": NaN,
+     "low": NaN,
+     "high": NaN
+    },
+    "hard_violation": {
+     "value": 0.0,
+     "low": 0.0,
+     "high": 0.0
+    },
+    "hard_violation_strict": {
+     "value": 0.0,
+     "low": 0.0,
+     "high": 0.0
+    },
+    "span_leak_local_only": {
+     "value": 0.0,
+     "low": 0.0,
+     "high": 0.0
+    },
+    "abstraction_compliance": {
+     "value": 1.0,
+     "low": 1.0,
+     "high": 1.0
+    },
+    "attacker_reconstruction": {
+     "value": 0.020674646354733407,
+     "low": 0.014762009968045407,
+     "high": 0.026864477221278996
+    },
+    "cloud_calls": {
+     "value": 0.0,
+     "low": 0.0,
+     "high": 0.0
+    },
+    "cloud_in_tokens": {
+     "value": 0.0,
+     "low": 0.0,
+     "high": 0.0
+    },
+    "cloud_out_tokens": {
+     "value": 0.0,
+     "low": 0.0,
+     "high": 0.0
+    }
+   },
+   "redact_send": {
+    "at_least_as_good": {
+     "value": NaN,
+     "low": NaN,
+     "high": NaN
+    },
+    "hard_violation": {
+     "value": 0.9952830188679245,
+     "low": 0.9858490566037735,
+     "high": 1.0
+    },
+    "hard_violation_strict": {
+     "value": 0.9952830188679245,
+     "low": 0.9858490566037735,
+     "high": 1.0
+    },
+    "span_leak_local_only": {
+     "value": 0.6425462459194777,
+     "low": 0.6297914250956637,
+     "high": 0.6542354821523708
+    },
+    "abstraction_compliance": {
+     "value": 0.6761006289308176,
+     "low": 0.6698113207547169,
+     "high": 0.6839622641509434
+    },
+    "attacker_reconstruction": {
+     "value": 0.4020674646354733,
+     "low": 0.3798574763957307,
+     "high": 0.42464247879044914
+    },
+    "cloud_calls": {
+     "value": 0.9952830188679245,
+     "low": 0.9858490566037735,
+     "high": 1.0
+    },
+    "cloud_in_tokens": {
+     "value": 348.4669811320755,
+     "low": 344.2686320754717,
+     "high": 351.5944575471698
+    },
+    "cloud_out_tokens": {
+     "value": 421.50471698113205,
+     "low": 411.37712264150946,
+     "high": 431.45766509433963
+    }
+   },
+   "method": {
+    "at_least_as_good": {
+     "value": NaN,
+     "low": NaN,
+     "high": NaN
+    },
+    "hard_violation": {
+     "value": 0.0,
+     "low": 0.0,
+     "high": 0.0
+    },
+    "hard_violation_strict": {
+     "value": 0.0,
+     "low": 0.0,
+     "high": 0.0
+    },
+    "span_leak_local_only": {
+     "value": 0.0,
+     "low": 0.0,
+     "high": 0.0
+    },
+    "abstraction_compliance": {
+     "value": 1.0,
+     "low": 1.0,
+     "high": 1.0
+    },
+    "attacker_reconstruction": {
+     "value": 0.014689880304679,
+     "low": 0.008695652173913044,
+     "high": 0.021344717182497332
+    },
+    "cloud_calls": {
+     "value": 0.9952830188679245,
+     "low": 0.9858490566037735,
+     "high": 1.0
+    },
+    "cloud_in_tokens": {
+     "value": 255.93867924528303,
+     "low": 253.41981132075472,
+     "high": 257.2830188679245
+    },
+    "cloud_out_tokens": {
+     "value": 1863.1415094339623,
+     "low": 1844.938679245283,
+     "high": 1872.6556603773586
+    }
+   },
+   "cloud_full": {
+    "at_least_as_good": {
+     "value": NaN,
+     "low": NaN,
+     "high": NaN
+    },
+    "hard_violation": {
+     "value": 1.0,
+     "low": 1.0,
+     "high": 1.0
+    },
+    "hard_violation_strict": {
+     "value": 1.0,
+     "low": 1.0,
+     "high": 1.0
+    },
+    "span_leak_local_only": {
+     "value": 1.0,
+     "low": 1.0,
+     "high": 1.0
+    },
+    "abstraction_compliance": {
+     "value": 0.0,
+     "low": 0.0,
+     "high": 0.0
+    },
+    "attacker_reconstruction": {
+     "value": 0.7426550598476604,
+     "low": 0.7201724707193854,
+     "high": 0.7658402943604584
+    },
+    "cloud_calls": {
+     "value": 1.0,
+     "low": 1.0,
+     "high": 1.0
+    },
+    "cloud_in_tokens": {
+     "value": 286.3443396226415,
+     "low": 284.57547169811323,
+     "high": 288.1556603773585
+    },
+    "cloud_out_tokens": {
+     "value": 485.8301886792453,
+     "low": 476.24033018867925,
+     "high": 495.7359669811321
+    }
+   }
+  },
+  "paired_against": {
+   "system": "redact_send",
+   "tests": {
+    "edge_only": {
+     "at_least_as_good": {
+      "diff": NaN,
+      "low": NaN,
+      "high": NaN,
+      "p": NaN
+     },
+     "hard_violation": {
+      "diff": -0.9952830188679245,
+      "low": -1.0,
+      "high": -0.9858490566037735,
+      "p": 0.0
+     },
+     "hard_violation_strict": {
+      "diff": -0.9952830188679245,
+      "low": -1.0,
+      "high": -0.9858490566037735,
+      "p": 0.0
+     },
+     "span_leak_local_only": {
+      "diff": -0.6425462459194777,
+      "low": -0.6542354821523708,
+      "high": -0.6297914250956637,
+      "p": 0.0
+     },
+     "abstraction_compliance": {
+      "diff": 0.32389937106918243,
+      "low": 0.3160377358490566,
+      "high": 0.33018867924528306,
+      "p": 0.0
+     },
+     "attacker_reconstruction": {
+      "diff": -0.3813928182807399,
+      "low": -0.4023053177485234,
+      "high": -0.3604199784429362,
+      "p": 0.0
+     },
+     "cloud_calls": {
+      "diff": -0.9952830188679245,
+      "low": -1.0,
+      "high": -0.9858490566037735,
+      "p": 0.0
+     },
+     "cloud_in_tokens": {
+      "diff": -348.4669811320755,
+      "low": -351.5944575471698,
+      "high": -344.2686320754717,
+      "p": 0.0
+     },
+     "cloud_out_tokens": {
+      "diff": -421.50471698113205,
+      "low": -431.45766509433963,
+      "high": -411.37712264150946,
+      "p": 0.0
+     }
+    },
+    "method": {
+     "at_least_as_good": {
+      "diff": NaN,
+      "low": NaN,
+      "high": NaN,
+      "p": NaN
+     },
+     "hard_violation": {
+      "diff": -0.9952830188679245,
+      "low": -1.0,
+      "high": -0.9858490566037735,
+      "p": 0.0
+     },
+     "hard_violation_strict": {
+      "diff": -0.9952830188679245,
+      "low": -1.0,
+      "high": -0.9858490566037735,
+      "p": 0.0
+     },
+     "span_leak_local_only": {
+      "diff": -0.6425462459194777,
+      "low": -0.6542354821523708,
+      "high": -0.6297914250956637,
+      "p": 0.0
+     },
+     "abstraction_compliance": {
+      "diff": 0.32389937106918243,
+      "low": 0.3160377358490566,
+      "high": 0.33018867924528306,
+      "p": 0.0
+     },
+     "attacker_reconstruction": {
+      "diff": -0.38737758433079433,
+      "low": -0.4097578754675236,
+      "high": -0.3653316163094735,
+      "p": 0.0
+     },
+     "cloud_calls": {
+      "diff": 0.0,
+      "low": -0.014150943396226467,
+      "high": 0.014150943396226467,
+      "p": 1.0
+     },
+     "cloud_in_tokens": {
+      "diff": -92.52830188679246,
+      "low": -96.64634433962263,
+      "high": -87.96674528301884,
+      "p": 0.0
+     },
+     "cloud_out_tokens": {
+      "diff": 1441.6367924528302,
+      "low": 1417.4701650943396,
+      "high": 1458.4718160377356,
+      "p": 0.0
+     }
+    },
+    "cloud_full": {
+     "at_least_as_good": {
+      "diff": NaN,
+      "low": NaN,
+      "high": NaN,
+      "p": NaN
+     },
+     "hard_violation": {
+      "diff": 0.004716981132075526,
+      "low": 0.0,
+      "high": 0.014150943396226467,
+      "p": 0.7138
+     },
+     "hard_violation_strict": {
+      "diff": 0.004716981132075526,
+      "low": 0.0,
+      "high": 0.014150943396226467,
+      "p": 0.7138
+     },
+     "span_leak_local_only": {
+      "diff": 0.35745375408052227,
+      "low": 0.3457645178476292,
+      "high": 0.37020857490433634,
+      "p": 0.0
+     },
+     "abstraction_compliance": {
+      "diff": -0.6761006289308176,
+      "low": -0.6839622641509434,
+      "high": -0.6698113207547169,
+      "p": 0.0
+     },
+     "attacker_reconstruction": {
+      "diff": 0.3405875952121871,
+      "low": 0.32092772384034524,
+      "high": 0.36028813210662375,
+      "p": 0.0
+     },
+     "cloud_calls": {
+      "diff": 0.004716981132075526,
+      "low": 0.0,
+      "high": 0.014150943396226467,
+      "p": 0.7138
+     },
+     "cloud_in_tokens": {
+      "diff": -62.122641509434004,
+      "low": -64.127358490566,
+      "high": -58.570754716981185,
+      "p": 0.0
+     },
+     "cloud_out_tokens": {
+      "diff": 64.32547169811323,
+      "low": 52.40082547169816,
+      "high": 76.63231132075471,
+      "p": 0.0
+     }
+    }
+   }
+  }
+ },
+ "qwen3:1.7b": {
+  "ci": {
+   "edge_only": {
+    "at_least_as_good": {
+     "value": NaN,
+     "low": NaN,
+     "high": NaN
+    },
+    "hard_violation": {
+     "value": 0.0,
+     "low": 0.0,
+     "high": 0.0
+    },
+    "hard_violation_strict": {
+     "value": 0.0,
+     "low": 0.0,
+     "high": 0.0
+    },
+    "span_leak_local_only": {
+     "value": 0.0,
+     "low": 0.0,
+     "high": 0.0
+    },
+    "abstraction_compliance": {
+     "value": 1.0,
+     "low": 1.0,
+     "high": 1.0
+    },
+    "attacker_reconstruction": {
+     "value": 0.020674646354733407,
+     "low": 0.014762009968045407,
+     "high": 0.026864477221278996
+    },
+    "cloud_calls": {
+     "value": 0.0,
+     "low": 0.0,
+     "high": 0.0
+    },
+    "cloud_in_tokens": {
+     "value": 0.0,
+     "low": 0.0,
+     "high": 0.0
+    },
+    "cloud_out_tokens": {
+     "value": 0.0,
+     "low": 0.0,
+     "high": 0.0
+    }
+   },
+   "redact_send": {
+    "at_least_as_good": {
+     "value": NaN,
+     "low": NaN,
+     "high": NaN
+    },
+    "hard_violation": {
+     "value": 0.9056603773584906,
+     "low": 0.8632075471698113,
+     "high": 0.9433962264150944
+    },
+    "hard_violation_strict": {
+     "value": 0.910377358490566,
+     "low": 0.8679245283018868,
+     "high": 0.9481132075471698
+    },
+    "span_leak_local_only": {
+     "value": 0.470620239390642,
+     "low": 0.4442036243720529,
+     "high": 0.49542309336566087
+    },
+    "abstraction_compliance": {
+     "value": 1.0,
+     "low": 1.0,
+     "high": 1.0
+    },
+    "attacker_reconstruction": {
+     "value": 0.18770402611534276,
+     "low": 0.16591921945855423,
+     "high": 0.21024601797456002
+    },
+    "cloud_calls": {
+     "value": 1.0,
+     "low": 1.0,
+     "high": 1.0
+    },
+    "cloud_in_tokens": {
+     "value": 375.5188679245283,
+     "low": 370.3819575471698,
+     "high": 380.91037735849056
+    },
+    "cloud_out_tokens": {
+     "value": 443.62735849056605,
+     "low": 432.27830188679246,
+     "high": 454.9200471698113
+    }
+   },
+   "method": {
+    "at_least_as_good": {
+     "value": NaN,
+     "low": NaN,
+     "high": NaN
+    },
+    "hard_violation": {
+     "value": 0.0,
+     "low": 0.0,
+     "high": 0.0
+    },
+    "hard_violation_strict": {
+     "value": 0.0047169811320754715,
+     "low": 0.0,
+     "high": 0.014150943396226415
+    },
+    "span_leak_local_only": {
+     "value": 0.0,
+     "low": 0.0,
+     "high": 0.0
+    },
+    "abstraction_compliance": {
+     "value": 1.0,
+     "low": 1.0,
+     "high": 1.0
+    },
+    "attacker_reconstruction": {
+     "value": 0.014689880304679,
+     "low": 0.008705114254624592,
+     "high": 0.021393307734503566
+    },
+    "cloud_calls": {
+     "value": 1.0,
+     "low": 1.0,
+     "high": 1.0
+    },
+    "cloud_in_tokens": {
+     "value": 257.0,
+     "low": 257.0,
+     "high": 257.0
+    },
+    "cloud_out_tokens": {
+     "value": 1873.0,
+     "low": 1873.0,
+     "high": 1873.0
+    }
+   },
+   "cloud_full": {
+    "at_least_as_good": {
+     "value": NaN,
+     "low": NaN,
+     "high": NaN
+    },
+    "hard_violation": {
+     "value": 1.0,
+     "low": 1.0,
+     "high": 1.0
+    },
+    "hard_violation_strict": {
+     "value": 1.0,
+     "low": 1.0,
+     "high": 1.0
+    },
+    "span_leak_local_only": {
+     "value": 1.0,
+     "low": 1.0,
+     "high": 1.0
+    },
+    "abstraction_compliance": {
+     "value": 0.0,
+     "low": 0.0,
+     "high": 0.0
+    },
+    "attacker_reconstruction": {
+     "value": 0.7426550598476604,
+     "low": 0.7201724707193854,
+     "high": 0.7658402943604584
+    },
+    "cloud_calls": {
+     "value": 1.0,
+     "low": 1.0,
+     "high": 1.0
+    },
+    "cloud_in_tokens": {
+     "value": 286.3443396226415,
+     "low": 284.57547169811323,
+     "high": 288.1556603773585
+    },
+    "cloud_out_tokens": {
+     "value": 485.8301886792453,
+     "low": 476.24033018867925,
+     "high": 495.7359669811321
+    }
+   }
+  },
+  "paired_against": {
+   "system": "redact_send",
+   "tests": {
+    "edge_only": {
+     "at_least_as_good": {
+      "diff": NaN,
+      "low": NaN,
+      "high": NaN,
+      "p": NaN
+     },
+     "hard_violation": {
+      "diff": -0.9056603773584906,
+      "low": -0.9433962264150944,
+      "high": -0.8632075471698113,
+      "p": 0.0
+     },
+     "hard_violation_strict": {
+      "diff": -0.910377358490566,
+      "low": -0.9481132075471698,
+      "high": -0.8679245283018868,
+      "p": 0.0
+     },
+     "span_leak_local_only": {
+      "diff": -0.470620239390642,
+      "low": -0.49542309336566087,
+      "high": -0.4442036243720529,
+      "p": 0.0
+     },
+     "abstraction_compliance": {
+      "diff": 0.0,
+      "low": 0.0,
+      "high": 0.0,
+      "p": 1.0
+     },
+     "attacker_reconstruction": {
+      "diff": -0.16702937976060936,
+      "low": -0.18947976306618994,
+      "high": -0.14537420768883166,
+      "p": 0.0
+     },
+     "cloud_calls": {
+      "diff": -1.0,
+      "low": -1.0,
+      "high": -1.0,
+      "p": 0.0
+     },
+     "cloud_in_tokens": {
+      "diff": -375.5188679245283,
+      "low": -380.91037735849056,
+      "high": -370.3819575471698,
+      "p": 0.0
+     },
+     "cloud_out_tokens": {
+      "diff": -443.62735849056605,
+      "low": -454.9200471698113,
+      "high": -432.27830188679246,
+      "p": 0.0
+     }
+    },
+    "method": {
+     "at_least_as_good": {
+      "diff": NaN,
+      "low": NaN,
+      "high": NaN,
+      "p": NaN
+     },
+     "hard_violation": {
+      "diff": -0.9056603773584906,
+      "low": -0.9433962264150944,
+      "high": -0.8632075471698113,
+      "p": 0.0
+     },
+     "hard_violation_strict": {
+      "diff": -0.9056603773584905,
+      "low": -0.9433962264150944,
+      "high": -0.8632075471698113,
+      "p": 0.0
+     },
+     "span_leak_local_only": {
+      "diff": -0.470620239390642,
+      "low": -0.49542309336566087,
+      "high": -0.4442036243720529,
+      "p": 0.0
+     },
+     "abstraction_compliance": {
+      "diff": 0.0,
+      "low": 0.0,
+      "high": 0.0,
+      "p": 1.0
+     },
+     "attacker_reconstruction": {
+      "diff": -0.17301414581066377,
+      "low": -0.196322336398053,
+      "high": -0.1507452409436718,
+      "p": 0.0
+     },
+     "cloud_calls": {
+      "diff": 0.0,
+      "low": 0.0,
+      "high": 0.0,
+      "p": 1.0
+     },
+     "cloud_in_tokens": {
+      "diff": -118.51886792452831,
+      "low": -123.91037735849056,
+      "high": -113.3819575471698,
+      "p": 0.0
+     },
+     "cloud_out_tokens": {
+      "diff": 1429.3726415094338,
+      "low": 1418.0799528301886,
+      "high": 1440.7216981132076,
+      "p": 0.0
+     }
+    },
+    "cloud_full": {
+     "at_least_as_good": {
+      "diff": NaN,
+      "low": NaN,
+      "high": NaN,
+      "p": NaN
+     },
+     "hard_violation": {
+      "diff": 0.09433962264150941,
+      "low": 0.05660377358490565,
+      "high": 0.1367924528301887,
+      "p": 0.0
+     },
+     "hard_violation_strict": {
+      "diff": 0.089622641509434,
+      "low": 0.05188679245283023,
+      "high": 0.13207547169811318,
+      "p": 0.0
+     },
+     "span_leak_local_only": {
+      "diff": 0.529379760609358,
+      "low": 0.5045769066343392,
+      "high": 0.555796375627947,
+      "p": 0.0
+     },
+     "abstraction_compliance": {
+      "diff": -1.0,
+      "low": -1.0,
+      "high": -1.0,
+      "p": 0.0
+     },
+     "attacker_reconstruction": {
+      "diff": 0.5549510337323177,
+      "low": 0.5284116487877789,
+      "high": 0.5812674878627284,
+      "p": 0.0
+     },
+     "cloud_calls": {
+      "diff": 0.0,
+      "low": 0.0,
+      "high": 0.0,
+      "p": 1.0
+     },
+     "cloud_in_tokens": {
+      "diff": -89.17452830188682,
+      "low": -94.20766509433957,
+      "high": -84.31591981132073,
+      "p": 0.0
+     },
+     "cloud_out_tokens": {
+      "diff": 42.20283018867923,
+      "low": 30.783018867924568,
+      "high": 53.89162735849055,
+      "p": 0.0
+     }
+    }
+   }
+  }
+ },
+ "qwen3:4b-instruct-2507-q4_K_M": {
+  "ci": {
+   "edge_only": {
+    "at_least_as_good": {
+     "value": NaN,
+     "low": NaN,
+     "high": NaN
+    },
+    "hard_violation": {
+     "value": 0.0,
+     "low": 0.0,
+     "high": 0.0
+    },
+    "hard_violation_strict": {
+     "value": 0.0,
+     "low": 0.0,
+     "high": 0.0
+    },
+    "span_leak_local_only": {
+     "value": 0.0,
+     "low": 0.0,
+     "high": 0.0
+    },
+    "abstraction_compliance": {
+     "value": 1.0,
+     "low": 1.0,
+     "high": 1.0
+    },
+    "attacker_reconstruction": {
+     "value": 0.020674646354733407,
+     "low": 0.014762009968045407,
+     "high": 0.026864477221278996
+    },
+    "cloud_calls": {
+     "value": 0.0,
+     "low": 0.0,
+     "high": 0.0
+    },
+    "cloud_in_tokens": {
+     "value": 0.0,
+     "low": 0.0,
+     "high": 0.0
+    },
+    "cloud_out_tokens": {
+     "value": 0.0,
+     "low": 0.0,
+     "high": 0.0
+    }
+   },
+   "redact_send": {
+    "at_least_as_good": {
+     "value": NaN,
+     "low": NaN,
+     "high": NaN
+    },
+    "hard_violation": {
+     "value": 0.419811320754717,
+     "low": 0.35377358490566035,
+     "high": 0.4858490566037736
+    },
+    "hard_violation_strict": {
+     "value": 0.4528301886792453,
+     "low": 0.3867924528301887,
+     "high": 0.5188679245283019
+    },
+    "span_leak_local_only": {
+     "value": 0.14363438520130578,
+     "low": 0.1147893822603409,
+     "high": 0.1742217367558711
+    },
+    "abstraction_compliance": {
+     "value": 1.0,
+     "low": 1.0,
+     "high": 1.0
+    },
+    "attacker_reconstruction": {
+     "value": 0.06039173014145811,
+     "low": 0.04797833608239128,
+     "high": 0.07381082558775287
+    },
+    "cloud_calls": {
+     "value": 0.9669811320754716,
+     "low": 0.9386792452830188,
+     "high": 0.9905660377358491
+    },
+    "cloud_in_tokens": {
+     "value": 424.12264150943395,
+     "low": 410.79221698113207,
+     "high": 435.74056603773585
+    },
+    "cloud_out_tokens": {
+     "value": 480.00943396226415,
+     "low": 464.2683962264151,
+     "high": 494.6792452830189
+    }
+   },
+   "method": {
+    "at_least_as_good": {
+     "value": NaN,
+     "low": NaN,
+     "high": NaN
+    },
+    "hard_violation": {
+     "value": 0.0,
+     "low": 0.0,
+     "high": 0.0
+    },
+    "hard_violation_strict": {
+     "value": 0.0047169811320754715,
+     "low": 0.0,
+     "high": 0.014150943396226415
+    },
+    "span_leak_local_only": {
+     "value": 0.0,
+     "low": 0.0,
+     "high": 0.0
+    },
+    "abstraction_compliance": {
+     "value": 1.0,
+     "low": 1.0,
+     "high": 1.0
+    },
+    "attacker_reconstruction": {
+     "value": 0.014689880304679,
+     "low": 0.008705114254624592,
+     "high": 0.021393307734503566
+    },
+    "cloud_calls": {
+     "value": 1.0,
+     "low": 1.0,
+     "high": 1.0
+    },
+    "cloud_in_tokens": {
+     "value": 257.14150943396226,
+     "low": 257.0377358490566,
+     "high": 257.27358490566036
+    },
+    "cloud_out_tokens": {
+     "value": 1872.3915094339623,
+     "low": 1870.9103773584907,
+     "high": 1874.0094339622642
+    }
+   },
+   "cloud_full": {
+    "at_least_as_good": {
+     "value": NaN,
+     "low": NaN,
+     "high": NaN
+    },
+    "hard_violation": {
+     "value": 1.0,
+     "low": 1.0,
+     "high": 1.0
+    },
+    "hard_violation_strict": {
+     "value": 1.0,
+     "low": 1.0,
+     "high": 1.0
+    },
+    "span_leak_local_only": {
+     "value": 1.0,
+     "low": 1.0,
+     "high": 1.0
+    },
+    "abstraction_compliance": {
+     "value": 0.0,
+     "low": 0.0,
+     "high": 0.0
+    },
+    "attacker_reconstruction": {
+     "value": 0.7426550598476604,
+     "low": 0.7201724707193854,
+     "high": 0.7658402943604584
+    },
+    "cloud_calls": {
+     "value": 1.0,
+     "low": 1.0,
+     "high": 1.0
+    },
+    "cloud_in_tokens": {
+     "value": 286.3443396226415,
+     "low": 284.57547169811323,
+     "high": 288.1556603773585
+    },
+    "cloud_out_tokens": {
+     "value": 485.8301886792453,
+     "low": 476.24033018867925,
+     "high": 495.7359669811321
+    }
+   }
+  },
+  "paired_against": {
+   "system": "redact_send",
+   "tests": {
+    "edge_only": {
+     "at_least_as_good": {
+      "diff": NaN,
+      "low": NaN,
+      "high": NaN,
+      "p": NaN
+     },
+     "hard_violation": {
+      "diff": -0.419811320754717,
+      "low": -0.4858490566037736,
+      "high": -0.35377358490566035,
+      "p": 0.0
+     },
+     "hard_violation_strict": {
+      "diff": -0.4528301886792453,
+      "low": -0.5188679245283019,
+      "high": -0.3867924528301887,
+      "p": 0.0
+     },
+     "span_leak_local_only": {
+      "diff": -0.14363438520130578,
+      "low": -0.1742217367558711,
+      "high": -0.11478938226034091,
+      "p": 0.0
+     },
+     "abstraction_compliance": {
+      "diff": 0.0,
+      "low": 0.0,
+      "high": 0.0,
+      "p": 1.0
+     },
+     "attacker_reconstruction": {
+      "diff": -0.0397170837867247,
+      "low": -0.05286403046851041,
+      "high": -0.027247956403269755,
+      "p": 0.0
+     },
+     "cloud_calls": {
+      "diff": -0.9669811320754716,
+      "low": -0.9905660377358491,
+      "high": -0.9386792452830188,
+      "p": 0.0
+     },
+     "cloud_in_tokens": {
+      "diff": -424.12264150943395,
+      "low": -435.74056603773585,
+      "high": -410.79221698113207,
+      "p": 0.0
+     },
+     "cloud_out_tokens": {
+      "diff": -480.00943396226415,
+      "low": -494.6792452830189,
+      "high": -464.2683962264151,
+      "p": 0.0
+     }
+    },
+    "method": {
+     "at_least_as_good": {
+      "diff": NaN,
+      "low": NaN,
+      "high": NaN,
+      "p": NaN
+     },
+     "hard_violation": {
+      "diff": -0.419811320754717,
+      "low": -0.4858490566037736,
+      "high": -0.35377358490566035,
+      "p": 0.0
+     },
+     "hard_violation_strict": {
+      "diff": -0.4481132075471698,
+      "low": -0.5141509433962265,
+      "high": -0.38207547169811323,
+      "p": 0.0
+     },
+     "span_leak_local_only": {
+      "diff": -0.14363438520130578,
+      "low": -0.1742217367558711,
+      "high": -0.11478938226034091,
+      "p": 0.0
+     },
+     "abstraction_compliance": {
+      "diff": 0.0,
+      "low": 0.0,
+      "high": 0.0,
+      "p": 1.0
+     },
+     "attacker_reconstruction": {
+      "diff": -0.04570184983677911,
+      "low": -0.059299191374663066,
+      "high": -0.032838820939796086,
+      "p": 0.0
+     },
+     "cloud_calls": {
+      "diff": 0.03301886792452835,
+      "low": 0.009433962264150941,
+      "high": 0.061320754716981174,
+      "p": 0.0014
+     },
+     "cloud_in_tokens": {
+      "diff": -166.9811320754717,
+      "low": -178.64162735849055,
+      "high": -153.64622641509436,
+      "p": 0.0
+     },
+     "cloud_out_tokens": {
+      "diff": 1392.382075471698,
+      "low": 1377.5751179245283,
+      "high": 1408.2832547169812,
+      "p": 0.0
+     }
+    },
+    "cloud_full": {
+     "at_least_as_good": {
+      "diff": NaN,
+      "low": NaN,
+      "high": NaN,
+      "p": NaN
+     },
+     "hard_violation": {
+      "diff": 0.5801886792452831,
+      "low": 0.5141509433962264,
+      "high": 0.6462264150943396,
+      "p": 0.0
+     },
+     "hard_violation_strict": {
+      "diff": 0.5471698113207547,
+      "low": 0.4811320754716981,
+      "high": 0.6132075471698113,
+      "p": 0.0
+     },
+     "span_leak_local_only": {
+      "diff": 0.8563656147986942,
+      "low": 0.8257782632441288,
+      "high": 0.885210617739659,
+      "p": 0.0
+     },
+     "abstraction_compliance": {
+      "diff": -1.0,
+      "low": -1.0,
+      "high": -1.0,
+      "p": 0.0
+     },
+     "attacker_reconstruction": {
+      "diff": 0.6822633297062023,
+      "low": 0.6571884739504251,
+      "high": 0.7071039419614302,
+      "p": 0.0
+     },
+     "cloud_calls": {
+      "diff": 0.03301886792452835,
+      "low": 0.009433962264150941,
+      "high": 0.061320754716981174,
+      "p": 0.0014
+     },
+     "cloud_in_tokens": {
+      "diff": -137.77830188679246,
+      "low": -149.37794811320757,
+      "high": -124.56049528301887,
+      "p": 0.0
+     },
+     "cloud_out_tokens": {
+      "diff": 5.820754716981128,
+      "low": -11.411202830188676,
+      "high": 23.802358490566075,
+      "p": 0.5228
+     }
+    }
+   }
+  }
+ },
+ "qwen3:4b-q4_K_M": {
+  "ci": {
+   "edge_only": {
+    "at_least_as_good": {
+     "value": NaN,
+     "low": NaN,
+     "high": NaN
+    },
+    "hard_violation": {
+     "value": 0.0,
+     "low": 0.0,
+     "high": 0.0
+    },
+    "hard_violation_strict": {
+     "value": 0.0,
+     "low": 0.0,
+     "high": 0.0
+    },
+    "span_leak_local_only": {
+     "value": 0.0,
+     "low": 0.0,
+     "high": 0.0
+    },
+    "abstraction_compliance": {
+     "value": 1.0,
+     "low": 1.0,
+     "high": 1.0
+    },
+    "attacker_reconstruction": {
+     "value": 0.020674646354733407,
+     "low": 0.014762009968045407,
+     "high": 0.026864477221278996
+    },
+    "cloud_calls": {
+     "value": 0.0,
+     "low": 0.0,
+     "high": 0.0
+    },
+    "cloud_in_tokens": {
+     "value": 0.0,
+     "low": 0.0,
+     "high": 0.0
+    },
+    "cloud_out_tokens": {
+     "value": 0.0,
+     "low": 0.0,
+     "high": 0.0
+    }
+   },
+   "redact_send": {
+    "at_least_as_good": {
+     "value": NaN,
+     "low": NaN,
+     "high": NaN
+    },
+    "hard_violation": {
+     "value": 0.7830188679245284,
+     "low": 0.7264150943396226,
+     "high": 0.839622641509434
+    },
+    "hard_violation_strict": {
+     "value": 0.7971698113207547,
+     "low": 0.7405660377358491,
+     "high": 0.8490566037735849
+    },
+    "span_leak_local_only": {
+     "value": 0.38139281828073995,
+     "low": 0.3480164122303515,
+     "high": 0.41452827244476304
+    },
+    "abstraction_compliance": {
+     "value": 1.0,
+     "low": 1.0,
+     "high": 1.0
+    },
+    "attacker_reconstruction": {
+     "value": 0.15832426550598477,
+     "low": 0.13646229174083951,
+     "high": 0.1808743169398907
+    },
+    "cloud_calls": {
+     "value": 0.9764150943396226,
+     "low": 0.9528301886792453,
+     "high": 0.9952830188679245
+    },
+    "cloud_in_tokens": {
+     "value": 397.83962264150944,
+     "low": 386.9338443396226,
+     "high": 407.52841981132076
+    },
+    "cloud_out_tokens": {
+     "value": 480.2877358490566,
+     "low": 464.3442216981132,
+     "high": 494.8405660377358
+    }
+   },
+   "method": {
+    "at_least_as_good": {
+     "value": NaN,
+     "low": NaN,
+     "high": NaN
+    },
+    "hard_violation": {
+     "value": 0.0,
+     "low": 0.0,
+     "high": 0.0
+    },
+    "hard_violation_strict": {
+     "value": 0.0047169811320754715,
+     "low": 0.0,
+     "high": 0.014150943396226415
+    },
+    "span_leak_local_only": {
+     "value": 0.0,
+     "low": 0.0,
+     "high": 0.0
+    },
+    "abstraction_compliance": {
+     "value": 1.0,
+     "low": 1.0,
+     "high": 1.0
+    },
+    "attacker_reconstruction": {
+     "value": 0.014689880304679,
+     "low": 0.008705114254624592,
+     "high": 0.021393307734503566
+    },
+    "cloud_calls": {
+     "value": 1.0,
+     "low": 1.0,
+     "high": 1.0
+    },
+    "cloud_in_tokens": {
+     "value": 257.22169811320754,
+     "low": 257.0660377358491,
+     "high": 257.4198113207547
+    },
+    "cloud_out_tokens": {
+     "value": 1873.0566037735848,
+     "low": 1871.3490566037735,
+     "high": 1875.0188679245282
+    }
+   },
+   "cloud_full": {
+    "at_least_as_good": {
+     "value": NaN,
+     "low": NaN,
+     "high": NaN
+    },
+    "hard_violation": {
+     "value": 1.0,
+     "low": 1.0,
+     "high": 1.0
+    },
+    "hard_violation_strict": {
+     "value": 1.0,
+     "low": 1.0,
+     "high": 1.0
+    },
+    "span_leak_local_only": {
+     "value": 1.0,
+     "low": 1.0,
+     "high": 1.0
+    },
+    "abstraction_compliance": {
+     "value": 0.0,
+     "low": 0.0,
+     "high": 0.0
+    },
+    "attacker_reconstruction": {
+     "value": 0.7426550598476604,
+     "low": 0.7201724707193854,
+     "high": 0.7658402943604584
+    },
+    "cloud_calls": {
+     "value": 1.0,
+     "low": 1.0,
+     "high": 1.0
+    },
+    "cloud_in_tokens": {
+     "value": 286.3443396226415,
+     "low": 284.57547169811323,
+     "high": 288.1556603773585
+    },
+    "cloud_out_tokens": {
+     "value": 485.8301886792453,
+     "low": 476.24033018867925,
+     "high": 495.7359669811321
+    }
+   }
+  },
+  "paired_against": {
+   "system": "redact_send",
+   "tests": {
+    "edge_only": {
+     "at_least_as_good": {
+      "diff": NaN,
+      "low": NaN,
+      "high": NaN,
+      "p": NaN
+     },
+     "hard_violation": {
+      "diff": -0.7830188679245284,
+      "low": -0.839622641509434,
+      "high": -0.7264150943396226,
+      "p": 0.0
+     },
+     "hard_violation_strict": {
+      "diff": -0.7971698113207547,
+      "low": -0.8490566037735849,
+      "high": -0.7405660377358491,
+      "p": 0.0
+     },
+     "span_leak_local_only": {
+      "diff": -0.38139281828073995,
+      "low": -0.41452827244476304,
+      "high": -0.3480164122303515,
+      "p": 0.0
+     },
+     "abstraction_compliance": {
+      "diff": 0.0,
+      "low": 0.0,
+      "high": 0.0,
+      "p": 1.0
+     },
+     "attacker_reconstruction": {
+      "diff": -0.13764961915125137,
+      "low": -0.1591886315228967,
+      "high": -0.11643090315560393,
+      "p": 0.0
+     },
+     "cloud_calls": {
+      "diff": -0.9764150943396226,
+      "low": -0.9952830188679245,
+      "high": -0.9528301886792453,
+      "p": 0.0
+     },
+     "cloud_in_tokens": {
+      "diff": -397.83962264150944,
+      "low": -407.52841981132076,
+      "high": -386.9338443396226,
+      "p": 0.0
+     },
+     "cloud_out_tokens": {
+      "diff": -480.2877358490566,
+      "low": -494.84056603773587,
+      "high": -464.3442216981132,
+      "p": 0.0
+     }
+    },
+    "method": {
+     "at_least_as_good": {
+      "diff": NaN,
+      "low": NaN,
+      "high": NaN,
+      "p": NaN
+     },
+     "hard_violation": {
+      "diff": -0.7830188679245284,
+      "low": -0.839622641509434,
+      "high": -0.7264150943396226,
+      "p": 0.0
+     },
+     "hard_violation_strict": {
+      "diff": -0.7924528301886792,
+      "low": -0.8443396226415094,
+      "high": -0.7358490566037735,
+      "p": 0.0
+     },
+     "span_leak_local_only": {
+      "diff": -0.38139281828073995,
+      "low": -0.41452827244476304,
+      "high": -0.3480164122303515,
+      "p": 0.0
+     },
+     "abstraction_compliance": {
+      "diff": 0.0,
+      "low": 0.0,
+      "high": 0.0,
+      "p": 1.0
+     },
+     "attacker_reconstruction": {
+      "diff": -0.14363438520130578,
+      "low": -0.16730255694344592,
+      "high": -0.12092690155106105,
+      "p": 0.0
+     },
+     "cloud_calls": {
+      "diff": 0.02358490566037741,
+      "low": 0.004716981132075526,
+      "high": 0.047169811320754707,
+      "p": 0.0116
+     },
+     "cloud_in_tokens": {
+      "diff": -140.6179245283019,
+      "low": -150.32547169811318,
+      "high": -129.66969339622642,
+      "p": 0.0
+     },
+     "cloud_out_tokens": {
+      "diff": 1392.7688679245282,
+      "low": 1377.9560141509432,
+      "high": 1408.8538915094339,
+      "p": 0.0
+     }
+    },
+    "cloud_full": {
+     "at_least_as_good": {
+      "diff": NaN,
+      "low": NaN,
+      "high": NaN,
+      "p": NaN
+     },
+     "hard_violation": {
+      "diff": 0.21698113207547165,
+      "low": 0.160377358490566,
+      "high": 0.2735849056603774,
+      "p": 0.0
+     },
+     "hard_violation_strict": {
+      "diff": 0.2028301886792453,
+      "low": 0.15094339622641506,
+      "high": 0.25943396226415094,
+      "p": 0.0
+     },
+     "span_leak_local_only": {
+      "diff": 0.61860718171926,
+      "low": 0.5854717275552369,
+      "high": 0.6519835877696485,
+      "p": 0.0
+     },
+     "abstraction_compliance": {
+      "diff": -1.0,
+      "low": -1.0,
+      "high": -1.0,
+      "p": 0.0
+     },
+     "attacker_reconstruction": {
+      "diff": 0.5843307943416757,
+      "low": 0.5563416709829545,
+      "high": 0.6127232908128282,
+      "p": 0.0
+     },
+     "cloud_calls": {
+      "diff": 0.02358490566037741,
+      "low": 0.004716981132075526,
+      "high": 0.047169811320754707,
+      "p": 0.0116
+     },
+     "cloud_in_tokens": {
+      "diff": -111.49528301886795,
+      "low": -120.97169811320754,
+      "high": -100.80577830188682,
+      "p": 0.0
+     },
+     "cloud_out_tokens": {
+      "diff": 5.542452830188665,
+      "low": -11.085259433962237,
+      "high": 23.368514150943344,
+      "p": 0.5334
+     }
+    }
+   }
+  }
+ }
+}

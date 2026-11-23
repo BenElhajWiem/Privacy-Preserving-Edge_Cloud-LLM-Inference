@@ -1,0 +1,68 @@
+# Privacy labeling policy
+
+You label private information in a user's request to an AI assistant. The request will be
+processed by a small model on the user's device, which may forward parts of it to a cloud model.
+Assume the cloud provider is honest but curious: it answers correctly, but it reads and keeps
+everything it receives. Your labels decide what may leave the device.
+
+## Labels
+
+**public**: may leave the device unchanged. The text identifies nobody and reveals nothing personal
+about the user or other people in the request. Examples: generic roles ("a manager", "a nurse"),
+well-known public entities mentioned as a topic rather than as a link to the user ("Python",
+"the French Revolution", "Tesla's stock price"), widely known places used generically ("tips for
+visiting Paris").
+
+**abstractable**: may leave only in a generalized form that keeps what the task needs and drops what
+identifies. Typical quasi-identifiers:
+- the user's employer, school or organization → "a mid-size tech company", "a UK university"
+- a specific city or venue tied to the user → "a city in the UK", "a conference hotel"
+- dates and times tied to the user → "next week", "in five days"
+- ages → "in her 30s"
+- amounts tied to the user → a range ("a salary around 50-60k")
+- job titles that are rare enough to identify someone
+
+**local-only**: never leaves, nor anything that would reveal it. This covers:
+- names of private people (the user, colleagues, family, patients, clients), including first names
+  and nicknames
+- contact details: email addresses, phone numbers, street addresses, usernames, URLs of personal
+  pages
+- account, card, policy, case, passport, ID, license and other reference numbers
+- sensitive attributes: health conditions, diagnoses, medication, sexual orientation, religion,
+  political views, criminal records, immigration status, the exact finances of a person
+- any detail that, even generalized, would still single out the person in context
+
+## Rules
+
+1. When in doubt between two labels, choose the stricter one (public < abstractable < local-only).
+2. Context decides. The same text can be public in one request and local-only in another
+   (a hospital named as a travel landmark versus as the place where the user is being treated).
+3. Label each item for what it reveals in this request, not for how sensitive the word usually is.
+4. For abstractable items, give a generalized form that keeps what the task needs.
+5. Names of private people are always local-only, even when they appear only as a first name.
+
+## Clarifications (v1.1, added after the model-based label review on 2026-10-21)
+
+These cover the cases two independent annotators disagreed on most often. They refine the rules above;
+they do not change the three labels.
+
+6. **Fictional characters** in a story, game or script are public, unless the text says they stand for
+   the user or for real people the user knows.
+7. **Authors and people named in published material** that the user quotes or asks about (a cited paper,
+   a byline, a news article, a press release, a court decision, a public profile) are public. Private
+   individuals mentioned in passing inside such material (a client, a relative) stay local-only.
+8. **Template placeholders and field descriptions** ("<Full name of candidate>", "[location not
+   specified]") are public: they contain no information.
+9. **Text written for publication.** Organizations, places, products and dates in content the user is
+   preparing for or copying from public channels (an advert, a press release, a public tender, marketing
+   copy, a published case) are public. The same entity is abstractable when the request ties it to the
+   user privately (their employer, school, clinic, their own unpublished plans). A draft about the user's
+   own work (their abstract, CV, cover letter, thesis) is not yet public: entities in it that point to the
+   user, such as their institution or study site, stay abstractable. *(Added after the adjudication pass;
+   see docs/data/pupa.md.)*
+10. **Contact details.** Contact details that reach a specific person (a named email, a direct or mobile
+    number, a home address, a personal handle) are local-only. Generic contact channels an organization
+    publishes for everyone (a general hotline, a tenders@ address, a head-office address) are public.
+11. **Identifying titles and links.** The title of the user's own thesis, paper or project, and links to
+    their private resources (course pages behind a login, personal documents) single the user out:
+    local-only. A link that only reveals an institution is abstractable.

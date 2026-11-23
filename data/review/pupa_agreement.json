@@ -1,0 +1,47 @@
+{
+ "model": "gpt-5.5",
+ "missing_from_second": 0,
+ "by_set": {
+  "pupa_tnb": {
+   "spans": 946,
+   "agreement": 0.8816067653276956,
+   "kappa": 0.8188235294117647
+  },
+  "pupa_new": {
+   "spans": 2332,
+   "agreement": 0.8490566037735849,
+   "kappa": 0.7736450508293796
+  },
+  "all": {
+   "spans": 3278,
+   "agreement": 0.8584502745576571,
+   "kappa": 0.7873826824310913
+  }
+ },
+ "per_label": {
+  "public": {
+   "sonnet_n": 1063,
+   "gpt_n": 1199,
+   "both": 941
+  },
+  "abstractable": {
+   "sonnet_n": 1252,
+   "gpt_n": 1090,
+   "both": 998
+  },
+  "local-only": {
+   "sonnet_n": 963,
+   "gpt_n": 989,
+   "both": 875
+  }
+ },
+ "disagreements": {
+  "abstractable -> public": 204,
+  "public -> local-only": 64,
+  "public -> abstractable": 58,
+  "local-only -> public": 54,
+  "abstractable -> local-only": 50,
+  "local-only -> abstractable": 34
+ },
+ "n_disagreements": 464
+}

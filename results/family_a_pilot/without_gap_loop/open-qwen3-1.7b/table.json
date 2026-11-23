@@ -1,0 +1,23 @@
+{
+ "data": "pupa_tnb",
+ "split": null,
+ "seed": 0,
+ "edge": "qwen3:1.7b",
+ "cloud": "claude-sonnet-5-5",
+ "rows": [
+  {
+   "system": "gap_aware (no gap loop)",
+   "edge": "qwen3:1.7b",
+   "gate": "open",
+   "phrases": true,
+   "at_least_as_good": 0.075,
+   "hard_violation": 0.0,
+   "cloud_calls": 0.7,
+   "verdicts": {
+    "win": 1,
+    "tie": 5,
+    "loss": 74
+   }
+  }
+ ]
+}

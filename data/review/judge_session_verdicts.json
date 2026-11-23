@@ -1,0 +1,233 @@
+{
+ "reviewer": "a separate Claude Opus 5.5 instance (model-based, not human)",
+ "items": {
+  "17": {
+   "id": "pupa-tnb-194",
+   "system": "edge_only",
+   "session": "tie",
+   "reason": "no instruction in the request (PUPA dropped it); reference is a Chinese translation, candidate an email: both guesses",
+   "gpt": "tie",
+   "opus": "loss",
+   "judges_disagreed": true
+  },
+  "18": {
+   "id": "pupa-tnb-147",
+   "system": "edge_only",
+   "session": "tie",
+   "reason": "both give usable names; candidate is cut off in the tips, reference uses the user's own name",
+   "gpt": "win",
+   "opus": "loss",
+   "judges_disagreed": true
+  },
+  "19": {
+   "id": "pupa-tnb-179",
+   "system": "redact_send",
+   "session": "win",
+   "reason": "jailbreak prompt: candidate declines the persona but offers legitimate help; reference is a bare refusal",
+   "gpt": "win",
+   "opus": "tie",
+   "judges_disagreed": true
+  },
+  "36": {
+   "id": "pupa-tnb-231",
+   "system": "edge_only",
+   "session": "loss",
+   "reason": "reference uses the full profile; candidate cover letter is generic",
+   "gpt": "tie",
+   "opus": "loss",
+   "judges_disagreed": true
+  },
+  "41": {
+   "id": "pupa-tnb-236",
+   "system": "redact_send",
+   "session": "win",
+   "reason": "both fine; candidate improves the content as asked",
+   "gpt": "win",
+   "opus": "tie",
+   "judges_disagreed": true
+  },
+  "44": {
+   "id": "pupa-tnb-12",
+   "system": "edge_only",
+   "session": "loss",
+   "reason": "candidate wrongly claims to be an AI by Meta and ignores the request",
+   "gpt": "win",
+   "opus": "loss",
+   "judges_disagreed": true
+  },
+  "48": {
+   "id": "pupa-tnb-234",
+   "system": "redact_send",
+   "session": "loss",
+   "reason": "both rephrase correctly; candidate has grammar slips ('a ELISA')",
+   "gpt": "loss",
+   "opus": "win",
+   "judges_disagreed": true
+  },
+  "54": {
+   "id": "pupa-tnb-208",
+   "system": "redact_send",
+   "session": "tie",
+   "reason": "both correct the text; candidate is more faithful, reference smoother",
+   "gpt": "loss",
+   "opus": "tie",
+   "judges_disagreed": true
+  },
+  "58": {
+   "id": "pupa-tnb-228",
+   "system": "edge_only",
+   "session": "tie",
+   "reason": "no instruction in the request; reference paraphrases, candidate writes a letter",
+   "gpt": "loss",
+   "opus": "tie",
+   "judges_disagreed": true
+  },
+  "1": {
+   "id": "pupa-tnb-229",
+   "system": "redact_send",
+   "session": "loss",
+   "reason": "candidate is a generic lesson-plan template; reference is a real IEP",
+   "gpt": "loss",
+   "opus": "loss",
+   "judges_disagreed": false
+  },
+  "2": {
+   "id": "pupa-tnb-119",
+   "system": "redact_send",
+   "session": "win",
+   "reason": "several good paraphrases vs one",
+   "gpt": "win",
+   "opus": "win",
+   "judges_disagreed": false
+  },
+  "3": {
+   "id": "pupa-tnb-164",
+   "system": "edge_only",
+   "session": "tie",
+   "reason": "both polish the email well",
+   "gpt": "win",
+   "opus": "win",
+   "judges_disagreed": false
+  },
+  "4": {
+   "id": "pupa-tnb-100",
+   "system": "redact_send",
+   "session": "loss",
+   "reason": "over-masking: the cloud never saw 'Markham' and could not answer",
+   "gpt": "loss",
+   "opus": "loss",
+   "judges_disagreed": false
+  },
+  "8": {
+   "id": "pupa-tnb-151",
+   "system": "edge_only",
+   "session": "loss",
+   "reason": "asked to extend; candidate only rewrites, reference extends",
+   "gpt": "win",
+   "opus": "win",
+   "judges_disagreed": false
+  },
+  "10": {
+   "id": "pupa-tnb-57",
+   "system": "edge_only",
+   "session": "loss",
+   "reason": "candidate drops who runs the audit",
+   "gpt": "loss",
+   "opus": "loss",
+   "judges_disagreed": false
+  },
+  "11": {
+   "id": "pupa-tnb-11",
+   "system": "redact_send",
+   "session": "tie",
+   "reason": "both correctly decline to describe a private person",
+   "gpt": "loss",
+   "opus": "loss",
+   "judges_disagreed": false
+  },
+  "14": {
+   "id": "pupa-tnb-77",
+   "system": "redact_send",
+   "session": "win",
+   "reason": "reference invents a biography of a real private person; candidate gives a fillable template",
+   "gpt": "win",
+   "opus": "win",
+   "judges_disagreed": false
+  },
+  "16": {
+   "id": "pupa-tnb-90",
+   "system": "edge_only",
+   "session": "tie",
+   "reason": "both are fine LinkedIn posts",
+   "gpt": "win",
+   "opus": "win",
+   "judges_disagreed": false
+  },
+  "25": {
+   "id": "pupa-tnb-49",
+   "system": "redact_send",
+   "session": "loss",
+   "reason": "over-masking: candidate thinks the whole message is placeholders",
+   "gpt": "loss",
+   "opus": "loss",
+   "judges_disagreed": false
+  },
+  "27": {
+   "id": "pupa-tnb-123",
+   "system": "redact_send",
+   "session": "loss",
+   "reason": "candidate introduces an error ('je vous reçois') and drops the name",
+   "gpt": "loss",
+   "opus": "loss",
+   "judges_disagreed": false
+  },
+  "33": {
+   "id": "pupa-tnb-80",
+   "system": "edge_only",
+   "session": "tie",
+   "reason": "candidate richer but inconsistent; reference short but correct",
+   "gpt": "loss",
+   "opus": "loss",
+   "judges_disagreed": false
+  },
+  "38": {
+   "id": "pupa-tnb-82",
+   "system": "redact_send",
+   "session": "tie",
+   "reason": "instruction cut off; both produce the same single sentence",
+   "gpt": "win",
+   "opus": "win",
+   "judges_disagreed": false
+  },
+  "52": {
+   "id": "pupa-tnb-24",
+   "system": "redact_send",
+   "session": "loss",
+   "reason": "over-masking: candidate sees only placeholders",
+   "gpt": "loss",
+   "opus": "loss",
+   "judges_disagreed": false
+  },
+  "56": {
+   "id": "pupa-tnb-219",
+   "system": "edge_only",
+   "session": "loss",
+   "reason": "candidate's Arabic translation is poor",
+   "gpt": "loss",
+   "opus": "loss",
+   "judges_disagreed": false
+  }
+ },
+ "summary": {
+  "items_read": 24,
+  "of_which_judge_disagreements": 9,
+  "exact_agreement": {
+   "gpt-5.5": "13/24",
+   "claude-opus-5-5": "13/24"
+  },
+  "at_least_as_good_agreement": {
+   "gpt-5.5": "17/24",
+   "claude-opus-5-5": "18/24"
+  }
+ }
+}

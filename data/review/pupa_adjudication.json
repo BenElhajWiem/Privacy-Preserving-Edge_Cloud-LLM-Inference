@@ -1,0 +1,16 @@
+{
+ "span_provenance": {
+  "agreed": 2882,
+  "adjudicated": 480,
+  "strict-default": 16,
+  "reviewer": 3
+ },
+ "label_changes_from_sonnet": {
+  "abstractable -> public": 175,
+  "local-only -> public": 56,
+  "public -> abstractable": 18,
+  "abstractable -> local-only": 16,
+  "local-only -> abstractable": 12,
+  "public -> local-only": 4
+ }
+}

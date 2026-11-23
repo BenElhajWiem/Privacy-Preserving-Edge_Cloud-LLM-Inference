@@ -1,0 +1,31 @@
+{
+ "data": "pupa_new",
+ "split": "dev",
+ "seed": 0,
+ "edge": "qwen3:8b-q4_K_M",
+ "cloud": "claude-sonnet-5-5",
+ "rows": [
+  {
+   "system": "redact_send",
+   "edge": "qwen3:8b-q4_K_M",
+   "at_least_as_good": 0.18,
+   "exact_match": null,
+   "verdicts": {
+    "win": 15,
+    "tie": 12,
+    "loss": 120
+   },
+   "hard_violation": 0.08,
+   "hard_violation_strict": 0.09333333333333334,
+   "span_leak_local_only": 0.13934426229508196,
+   "abstraction_compliance": 0.6285714285714286,
+   "attacker_reconstruction": null,
+   "attacker_prior": null,
+   "cloud_calls": 0.8666666666666667,
+   "cloud_in_tokens": 265.46666666666664,
+   "cloud_out_tokens": 626.9733333333334,
+   "edge_s": 2.0762727149327596,
+   "wall_s": 3.0318033790588377
+  }
+ ]
+}

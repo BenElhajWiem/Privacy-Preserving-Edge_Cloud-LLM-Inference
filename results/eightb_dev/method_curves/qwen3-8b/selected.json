@@ -1,0 +1,28 @@
+{
+ "best_quality": {
+  "threshold": 0.9237057509579369,
+  "escalated": 0.76,
+  "at_least_as_good": 0.18,
+  "hard_violation": 0.04,
+  "hard_violation_strict": 0.04666666666666667,
+  "span_leak_local_only": 0.04918032786885246,
+  "abstraction_compliance": 0.8928571428571429,
+  "attacker_reconstruction": null,
+  "cloud_calls": 0.66,
+  "cloud_in_tokens": 226.74666666666667,
+  "cloud_out_tokens": 532.38
+ },
+ "zero_violation": {
+  "threshold": 0.7972010813595565,
+  "escalated": 0.26,
+  "at_least_as_good": 0.12666666666666668,
+  "hard_violation": 0.0,
+  "hard_violation_strict": 0.0,
+  "span_leak_local_only": 0.0,
+  "abstraction_compliance": 0.9857142857142858,
+  "attacker_reconstruction": null,
+  "cloud_calls": 0.24666666666666667,
+  "cloud_in_tokens": 54.93333333333333,
+  "cloud_out_tokens": 259.81333333333333
+ }
+}

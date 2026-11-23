@@ -1,0 +1,23 @@
+{
+ "data": "pupa_new",
+ "split": "dev",
+ "seed": 0,
+ "edge": "qwen3:4b-q4_K_M",
+ "cloud": "claude-sonnet-5-5",
+ "rows": [
+  {
+   "system": "gap_aware",
+   "edge": "qwen3:4b-q4_K_M",
+   "gate": "closed",
+   "phrases": true,
+   "at_least_as_good": 0.08053691275167785,
+   "hard_violation": 0.02666666666666667,
+   "cloud_calls": 0.47333333333333333,
+   "verdicts": {
+    "win": 7,
+    "tie": 5,
+    "loss": 137
+   }
+  }
+ ]
+}

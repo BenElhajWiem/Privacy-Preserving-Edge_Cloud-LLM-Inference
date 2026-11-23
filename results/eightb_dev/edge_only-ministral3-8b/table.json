@@ -1,0 +1,31 @@
+{
+ "data": "pupa_new",
+ "split": "dev",
+ "seed": 0,
+ "edge": "ministral-3:8b-fixeddate",
+ "cloud": "claude-sonnet-5-5",
+ "rows": [
+  {
+   "system": "edge_only",
+   "edge": "ministral-3:8b-fixeddate",
+   "at_least_as_good": 0.04,
+   "exact_match": null,
+   "verdicts": {
+    "win": 3,
+    "tie": 3,
+    "loss": 144
+   },
+   "hard_violation": 0.0,
+   "hard_violation_strict": 0.0,
+   "span_leak_local_only": 0.0,
+   "abstraction_compliance": 1.0,
+   "attacker_reconstruction": null,
+   "attacker_prior": null,
+   "cloud_calls": 0,
+   "cloud_in_tokens": 0,
+   "cloud_out_tokens": 0,
+   "edge_s": 8.85552205880483,
+   "wall_s": 8.855705285072327
+  }
+ ]
+}
